@@ -1,0 +1,20 @@
+name: Curvenote Preview Draft from PR
+on:
+  pull_request_target:
+    branches: [main]
+permissions:
+  contents: read
+  pull-requests: write
+jobs:
+  publish:
+    uses: curvenote/actions/.github/workflows/draft.yml@v1
+    with:
+      id-pattern-regex: '^morganton-2025-(?:[a-zA-Z0-9-_]{3,15})$'
+      venue: ncssm-mor
+      collection: '2025'
+      kind: original
+      path: papers/*
+      label: draft
+    secrets:
+      CURVENOTE: ${{ secrets.CURVENOTE_TOKEN }}
+      GITHUB: ${{ secrets.GITHUB_TOKEN }}
