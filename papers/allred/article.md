@@ -29,14 +29,14 @@ Due to the low level of observed degradation on the plastic, CheMetrics Ethylene
 
 Due to the ineffectiveness of the ethylene glycol testing kits, the only reliable value which could be collected from the tests performed was the weight loss of the plastic samples.  @change_in_mass_room_temp and @change_in_mass_heated display the percent change in plastic mass before and after the samples of the two recorded runs. As can be seen, while the data for the room temperature experiment is largely consistent with some degree of degradation, the one which was run at 30 ℃ largely gained in mass to some extent. This was likely due to the buffer salinity being too high, however multiple assays of this were performed and all returned some level of salt precipitate. As such, the data from 30 ℃ is unreliable, although it is interesting to note that in both experiments the standard conditions do to some extent degrade the plastic. @change_in_mass_heated’s data is not presented to demonstrate the effectiveness of the degradation, but to warn of a potential flaw which can occur. 
 
-```{figure} images/Percent Change In Mass 20 ℃.svg
+```{figure} images/percent_change_in_mass_20_C.svg
 :label: change_in_mass_room_temp
 :align: center
 
 Percent mass loss of PET at room temperature. “d” signifies ground plastic. 
 ```
 
-```{figure} images/Percent Change In Mass 30 ℃.svg
+```{figure} images/percent_change_in_mass_30_C.svg
 :label: change_in_mass_heated
 :align: center
 
