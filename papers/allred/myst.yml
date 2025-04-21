@@ -1,0 +1,30 @@
+version: 1
+project:
+  title: An Examination of the Enzymatic Degradation of PET Plastic via PETase and MHETase
+  description: This project focuses on the enzymatic degradation of the most common packaging plastic by an enzyme system naturally developed by a Japanese bacterium found in 2016. There was no sign of substantial degradation of the post-consumer plastic in the experiment, however it seems likely that pre-treating methods could allow for stronger levels of degradation and thus more effective recycling.
+  keywords:
+    - Polyethylene terephthalate
+    - Plastic degradation
+    - Enzymatic degradation
+    - MHETase
+    - PETase
+    - PET
+  subject: Chemistry
+  authors:
+    - name: Ruby Allred
+      orcid: 0009-0009-4838-9207
+      email: rubydiumallred@gmail.com
+      affiliation: ncssm
+      roles:
+      - Conceptualization
+      - Data curation
+      - Formal analysis
+      - Investigation
+      - Methodology
+      - Writing - Original Draft
+      - Writing - Review & Editing
+  abbreviations:
+    PET: polyethylene terephthalate
+    TPA: terephthalic acid
+    EG: ethylene glycol
+

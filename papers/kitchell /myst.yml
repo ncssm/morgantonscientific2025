@@ -1,0 +1,34 @@
+version: 1
+extends:
+project:
+  doi: 
+  id: morganton-2025-kitchell
+  title: Utilizing Alkaline Hydrolysis to Recover Terephthalic Acid Monomer From PET-Based Textile Waste
+  description: The U.S. discards over 34 billion pounds of textiles annually, with minimal recycling due to complex fiber blends and microscopic scale, making separation and reuse extremely difficult.
+  keywords:
+    - PET Recycling
+    - Textile Waste
+    - Waste Management
+  subject: Chemistry
+  authors:
+    - name: Sarrah Kitchell
+      orcid: 0009-0000-6149-2553
+      affiliation: ncssm
+      email: kitchell25s@ncssm.edu
+      roles:
+        - Conceptualization
+        - Data curation
+        - Formal analysis
+        - Investigation
+        - Project administration
+        - Software
+        - Validation
+        - Visualization
+        - Original draft
+        - Review & editing
+  biblio:
+    first_page: 15
+    last_page: 18
+  abbreviations:
+    PET: Polyethylene terephthalate
+    TPA: Terephthalic acid

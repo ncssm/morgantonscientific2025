@@ -1,0 +1,27 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 95c954e2-b88b-4682-9a9a-2f75fbe562e5
+  title: Optimizing Photovoltaic Output Through the Integration of Passive Optical Tools for Enhanced Photon Capture in Solar Cells
+  # description:
+  keywords: 
+    - Solar Panels
+    - Renewable Energy
+    - Photovoltaic Cells
+    - Magnifying Glass
+  authors: 
+    - name: Prahas Ramidi
+      affiliation: NCSSM
+      email: ramidi26r@ncssm.edu
+    - name: Akhilesh Karthik
+      affiliation: NCSSM
+      email: karthik26a@ncssm.edu
+  # github:
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+  abbreviations:
+  
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png

@@ -1,0 +1,35 @@
+version: 1
+extends:
+project:
+  doi: 
+  id: morganton-2025-chintapalli
+  title: Risk Factors of Frequent Poor Mental Health Days Among Adults in the United States (2022)
+  description: Frequent poor mental health (FPMH) is an increasingly significant public health concern in the United States, affecting many adults and severely disrupting their quality of life, yet comprehensive analysis incorporating behavioral and quality of life factors is limited.
+  keywords:
+    - Mental Health
+    - Health Disparities
+    - Behvaioral Risk Factors
+  subject: Computer Science
+  authors:
+    - name: Anil Chintapalli
+      orcid: 0009-0004-3727-9348
+      affiliation: ncssm
+      email: chintapalli25a@ncssm.edu
+      roles:
+        - Conceptualization
+        - Data curation
+        - Formal analysis
+        - Investigation
+        - Project Administration
+        - Software
+        - Validation
+        - Visualization
+        - writing
+        - editing
+  biblio:
+    first_page: 56
+    last_page: 63
+  abbreviations:
+    BRFSS: Behavioral Risk Factor Surveillance System
+    FPMH: Frequent Poor Mental Health
+    CDC: Center for Disease Control and Prevention
