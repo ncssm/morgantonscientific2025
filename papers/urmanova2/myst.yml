@@ -1,0 +1,47 @@
+version: 1
+project:
+  title: "Rewiring Eating Disorder Recovery: Neuroethical Implications of tDCS in ED Treatment"
+  description: Eating disorders (ED) are psychiatric conditions that are associated with disturbances in eating behaviors as well as thoughts and emotions related to eating. This paper seeks to explore the ethical controversies that can arise from the use of tDCS, including its potential risks and implications for ED treatment.  
+  keywords:
+   - tDCS
+   - eating disorders
+   - neuromodulation
+   - neuroethics
+   - mental health
+   - bioethics
+   - non-invasive brain stimulation
+   - anorexia nervosa
+   - bulimia nervosa
+   - binge-eating disorder
+  authors:
+    - name: Leyla Urmanova
+      orcid: 0009-0003-4021-4716
+      email: urmanova25l@ncssm.edu
+      affiliation: NCSSM
+      roles: 
+      - Conceptualization
+      - Data curation
+      - Formal analysis
+      - Investigation
+      - Methodology
+      - Project Administration
+      - Validation
+      - Visualization
+      - Writing-original draft
+  abbreviations:
+    ED: Eating disorders
+    BED: Binge-eating disorder
+    AN: Anorexia nervosa
+    BN: Bulimia nervosa
+    DBS: Deep brain stimulation
+    VNS: Vagus nerve stimulation
+    tDCS: Transcranial direct current stimulation
+    TMS: Transcranial magnetic stimulation
+  subject: Biology
+  venue: The Morganton Scientific
+  exports:
+    - format: typst
+      article: article.md
+      template: https://github.com/myst-templates/scipy.git
+site:
+  template: article-theme
