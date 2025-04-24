@@ -1,0 +1,48 @@
+version: 1
+project:
+  title: Green synthesis of decomposing rubber; comparing processing using carboxymethyl cellulose and Ipomoea pes-caprae
+  description: In recent years effort has been made to innovate alternative sustainable options to classic materials. Rubber is one of those materials that poses a major problem worldwide as it fills landfills, infiltrates ecosystems, and poses a threat to wildlife. The author aims to develop a method of green synthesis of a latex natural rubber (LNR) material specific to the purpose of rubber band production with increased decomposability and a decreased negative impact on the ecosystem as well as minimized cost.  
+  keywords:
+    - green chemistry
+    - biodegradability
+    - decomposition of natural rubber
+    - material science
+    - synthesis of latex natural rubber
+    - carboxymethyl cellulose
+    - ipomoea pes-caprae
+    - ipomoea alba
+    - alternative processing methods of natural rubber
+    - rubber band production
+    - sustainability
+    - materials science
+    - alternative materials
+  authors:
+    - name: Zuzanna A. Mikolajec
+      orcid: 0009-0000-2109-6425
+      email: mikolajec25z@ncssm.edu
+      affiliation: NCSSM
+      roles: 
+      - Conceptualization
+      - Data curation
+      - Formal analysis
+      - Investigation
+      - Methodology
+      - Project Administration
+      - Validation
+      - Visualization
+      - Writing-original draft
+  abbreviations:
+    LNR: Latex natural rubber
+    CSG: Corn starch and glycerol
+    CMC: Carboxymethyl cellulose
+    IPC: Ipomoea pes-caprae vine
+    CS: Cassava starch
+
+  subject: Chemistry
+  venue: The Morganton Scientific
+  exports:
+    - format: typst
+      article: article.md
+      template: https://github.com/myst-templates/scipy.git
+site:
+  template: article-theme
