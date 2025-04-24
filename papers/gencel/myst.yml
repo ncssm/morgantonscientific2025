@@ -15,9 +15,19 @@ project:
     - PepT1
     - Valacyclovir Hydrolase
   authors: 
-    - name: Kevin Gencel
-      affiliation: NCSSM
+      - name: Kevin Gencel
+      orcid: 0009-0001-5792-455X
+      affiliation: ncssm
       email: gencel25k@ncssm.edu
+      roles:
+        - Conceptualization
+        - Data Curation
+        - Formal Analysis
+        - Investigation
+        - Methodology
+        - Validation
+        - Visualization
+        - Writing
   abbreviations:
     NCSSM: North Carolina School of Science and Mathematics
     DFT: Density functional theory
