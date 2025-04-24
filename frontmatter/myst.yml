@@ -1,0 +1,27 @@
+version: 1
+project:
+  id: morganton-2025-vol-2
+  title: Morganton Scientific - Volume 2
+  description: |
+    The Morganton Scientific showcases some of the most
+    interesting and complex math- and science-centered
+    research projects explored by students at NCSSM.
+    We are a public high school where talented students
+    realize their potential and find their niche.
+  authors:
+    - name: 
+      affiliation: ncssm
+    - name: 
+      affiliation: ncssm
+  doi: ... # Matches Volume DOI
+  downloads:
+    - title: Download Full PDF
+      format: pdf
+      url: ../morganton2025.pdf
+      filename: morganton2025.pdf
+  exports:
+    - format: typst
+      template: ../templates/ncssm-preface
+      article: article.md
+      output: article.pdf
+extends: volume.yml
