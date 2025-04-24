@@ -1,7 +1,8 @@
-# See docs at: https://mystmd.org/guide/frontmatter
 version: 1
+extends:
+  - ../morganton2025.yml
 project:
-  id: 99946e07-d325-428d-ba8a-c8f7c80d97b5
+  id: morganton-2025-gencel
   title: In Silico Exploration of L-Valine Ester Prodrug Designs for Enhanced Pharmacokinetics in BCS Class IV Nucleoside Antivirals.
   description: This study utilized software such as Gaussian 16 to conduct molecular orbital, natural bond orbital, and bond order calculations to predict qualities of prodrugs. Additionally, this study utilized the StarDrop software to predict effectiveness when binding to important target proteins.
   keywords: 
@@ -17,8 +18,6 @@ project:
     - name: Kevin Gencel
       affiliation: NCSSM
       email: gencel25k@ncssm.edu
-  # github:
-  # To autogenerate a Table of Contents, run "myst init --write-toc"
   abbreviations:
     NCSSM: North Carolina School of Science and Mathematics
     DFT: Density functional theory
@@ -30,10 +29,4 @@ project:
     CMV: Cytomegalovirus
     NBO: Natural Bond Orbital
     HOMO: highest occupied molecular orbital 
-    LUMO: lowest unoccupied molecular orbital 
-
-site:
-  template: book-theme
-  # options:
-  #   favicon: favicon.ico
-  #   logo: site_logo.png
+    LUMO: lowest unoccupied molecular orbital
