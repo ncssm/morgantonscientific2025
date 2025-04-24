@@ -1,5 +1,6 @@
 version: 1
 extends:
+  - ../morganton2025.yml
 project:
   doi: 
   id: morganton-2025-kitchell
@@ -26,9 +27,6 @@ project:
         - Visualization
         - Original draft
         - Review & editing
-  biblio:
-    first_page: 15
-    last_page: 18
   abbreviations:
     PET: Polyethylene terephthalate
     TPA: Terephthalic acid
