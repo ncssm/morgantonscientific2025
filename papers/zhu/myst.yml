@@ -1,0 +1,32 @@
+version: 1
+project:
+  title: Computationally Modeling Factors of Aging that Affect the Population of T-cells and B-cells of Humans Age 60 and Older
+  description: The study of T-cell and B-cell population dynamics concerning the effects of aging presents significant challenges due to individual variations in health conditions and the complex interrelations within the immune system leading to diverse outcomes. The author creates a systematic approach to create computational models, which simulate the long-term population dynamics of T-cells and B-cells under conditions of aging.
+  keywords:
+    - T-cell and B-cell Computational Model
+    - Stella Architect
+    - Immune System Aging
+    - T-cells and B-cells dynamics
+  authors:
+    - name: Felice Zhu
+      orcid: 0009-0007-8097-5455
+      email: zhu26f@ncssm.edu
+      affiliation: NCSSM
+      roles: 
+      - Conceptualization
+      - Data curation
+      - Formal analysis
+      - Investigation
+      - Methodology
+      - Project Administration
+      - Validation
+      - Visualization
+      - Writing-original draft
+  subject: Biology
+  venue: The Morganton Scientific
+  exports:
+    - format: typst
+      article: article.md
+      template: https://github.com/myst-templates/scipy.git
+site:
+  template: article-theme
