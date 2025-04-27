@@ -1,4 +1,8 @@
 version: 1
+extends:
+  - ../morganton2025.yml
+project:
+  id: morganton-2025-zhu
 project:
   title: Computationally Modeling Factors of Aging that Affect the Population of T-cells and B-cells of Humans Age 60 and Older
   description: The study of T-cell and B-cell population dynamics concerning the effects of aging presents significant challenges due to individual variations in health conditions and the complex interrelations within the immune system leading to diverse outcomes. The author creates a systematic approach to create computational models, which simulate the long-term population dynamics of T-cells and B-cells under conditions of aging.
