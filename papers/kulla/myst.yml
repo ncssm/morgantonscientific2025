@@ -1,4 +1,8 @@
 version: 1
+extends:
+  - ../morganton2025.yml
+project:
+  id: morganton-2025-kulla
 project:
   title: Utilizing Enzymatic and Chemical Delignification Methods on Fibrous Plants for Decentralized Production of Absorbent Materials for Menstrual Pads in Semi-Arid Regions
   description: In the interest of finding more sustainable and accessible materials to replace cotton pads for the multitude of women unable to access safe menstrual products, the author conducts experiments involving the absorption of pineapple and sisal fibers to produce biodegradable options.
@@ -35,8 +39,3 @@ project:
     TV: Trametes versicolor
     PDA: potato-dextrose agar
     HCl: hydrochloric acid
-
-
-
-
-    
