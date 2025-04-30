@@ -5,30 +5,30 @@ project:
   title: Optimizing Photovoltaic Output Through the Integration of Passive Optical Tools for Enhanced Photon Capture in Solar Cells
   id: morganton-2025-ramidi
   description: This project focused on increasing the efficiency of solar panels through focusing and reflective materials and comparing the results over different weather conditions.
-  keywords: 
+  keywords:
     - Solar Panels
     - Renewable Energy
     - Photovoltaic Cells
     - Magnifying Glass
   subject: Physics
-  authors: 
+  authors:
     - name: Prahas Ramidi
       orcid: 0009-0005-1452-7289
       affiliation: ncssm
       email: ramidi26r@ncssm.edu
-      roles: 
-      - Data curation
-      - Formal analysis
-      - Investigation
-      - Writing
+      roles:
+        - Data curation
+        - Formal analysis
+        - Investigation
+        - Writing
     - name: Akhilesh Karthik
       orcid: 0009-0003-6039-0266
       affiliation: NCSSM
       email: karthik26a@ncssm.edu
       roles:
-      - Conceptualization
-      - Investigation
-      - Methodology
-      - Writing
+        - Conceptualization
+        - Investigation
+        - Methodology
+        - Writing
 
   abbreviations:

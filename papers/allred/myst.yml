@@ -19,13 +19,13 @@ project:
       email: rubydiumallred@gmail.com
       affiliation: ncssm
       roles:
-      - Conceptualization
-      - Data curation
-      - Formal analysis
-      - Investigation
-      - Methodology
-      - Writing - Original Draft
-      - Writing - Review & Editing
+        - Conceptualization
+        - Data curation
+        - Formal analysis
+        - Investigation
+        - Methodology
+        - Writing - Original Draft
+        - Writing - Review & Editing
   abbreviations:
     PET: polyethylene terephthalate
     TPA: terephthalic acid

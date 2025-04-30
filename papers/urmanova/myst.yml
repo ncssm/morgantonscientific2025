@@ -6,12 +6,12 @@ project:
   title: Exploring The Gut-Brain Axis in C. elegans— Probiotics as a Therapeutic Approach to Alpha-Synuclein Aggregation in Parkinson’s Disease
   description: Though Parkinson's Disease has been thought to orignate from the brain, recent studies suggest that the disorder may have also stemmed from the gut microbiome. The author discusses an experiment involving Caenorhabditis elegans models to determine if probiotics reduce alpha-synuclein aggregation, improve motor symptoms, and extend lifespan in C. elegans models of Parkinson’s disease.
   keywords:
-      - Parkinson's Disease
-      - alpha-synuclein
-      - probiotics
-      - Lactic Acid bacteria
-      - C. elegans
-      - neurodegenerative disease
+    - Parkinson's Disease
+    - alpha-synuclein
+    - probiotics
+    - Lactic Acid bacteria
+    - C. elegans
+    - neurodegenerative disease
   subject: Biology
   authors:
     - name: Leyla Urmanova
@@ -19,11 +19,11 @@ project:
       email: urmanova25l@ncssm.edu
       affiliation: NCSSM
       roles:
-      - Conceptualization
-      - Formal Analysis
-      - Investigation
-      - Data curation
-      - Visualization
+        - Conceptualization
+        - Formal Analysis
+        - Investigation
+        - Data curation
+        - Visualization
   abbreviations:
     PD: Parkinson's Disease
     C. elegans: Caenorhabditis elegans
@@ -42,8 +42,3 @@ project:
     IntDensity: integrated density
     RawIntDensity: raw integrated density
     CTCF: Corrected Total Cell Fluorescence
-
-
-
-
-    
