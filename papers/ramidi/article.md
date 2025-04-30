@@ -20,7 +20,7 @@ Solar panels are used to harness the power of the sun, a renewable source of ene
 
 Of course, this is only if the photon strikes the solar cell with enough energy. This may not always be the case, such as cloudy days or when the sun isn’t up. By using magnifying glasses, the goal is to concentrate sunlight right on the solar panel. This explanation draws from the science behind the optics used in magnifying glasses. A magnifying lens is made of a mix of two different types of surfaces coming from either convex, concave, or flat. Lens’ also have focal points which is where all the light rays converge after passing through. With this attribute, magnifying glasses have the opportunity to concentrate sunlight to any desired location. As a result, more photons will be directed at a single point to knock electrons loose from their atoms, and overall, harness more energy. Similarly, the incorporation of mirrors allows the solar panel to maximize its photon absorption. By reflecting additional sunlight onto the panel's surface, the mirrors enhance its ability to harness energy from both direct and reflected solar radiation [@tobias_design_2020]. 
 
-On average, a solar cell can produce 0.5-0.6 volts. The main factors that can play a role in the power generated, which is the product of both current & voltage, is efficiency, surface area, and its proportionality to the intensity of light striking the solar cell. Under optimal sunlight conditions, a standard PV panel with a surface area of 160 $cm^2$ can generate about 2 watts at 100% intensity. During days where this is not the case, wattage can drop significantly. Studies indicate that incorporating passive devices can substantially increase the efficiency and output of PV cells. Passive devices that would work in this situation include reflectors, cooling systems, solar tracking mounts, concentrators, etc. Without drawing the need of additional external energy, these mechanisms are valuable in optimizing solar cell performance [@arshad_improvement_2014].
+On average, a solar cell can produce 0.5-0.6 volts. The main factors that can play a role in the power generated, which is the product of both current & voltage, is efficiency, surface area, and its proportionality to the intensity of light striking the solar cell. Under optimal sunlight conditions, a standard PV panel with a surface area of 160 cm$^2$ can generate about 2 watts at 100% intensity. During days where this is not the case, wattage can drop significantly. Studies indicate that incorporating passive devices can substantially increase the efficiency and output of PV cells. Passive devices that would work in this situation include reflectors, cooling systems, solar tracking mounts, concentrators, etc. Without drawing the need of additional external energy, these mechanisms are valuable in optimizing solar cell performance [@arshad_improvement_2014].
 
 ## Experiment 
 
@@ -208,7 +208,7 @@ Percent Change = $\frac{New - Original}{Original}*100$%
 |             | Magnifying Glass | Trial 1      | 1.841                      | 1.824            | 5.579                       | 5.527             | 0.01027                    | 0.01008          | 4.828                              | 9.589                      |
 ```
 
-```{figure} images\Voltage vs. Sunlight Condition and Optical Device.png
+```{figure} images\Voltage vs. Sunlight Condition and Optical Device.svg
 :name: Figure 4
 :align: center
 
@@ -218,7 +218,7 @@ Percent Change = $\frac{New - Original}{Original}*100$%
 
 This chart ({numref}`Figure 4`) displays the output voltage measured during each of the 27 trials where the red dot is the average of the respective 3 trials. This chart shows how the voltage output for all 3 optical devices was relatively the same in the sunny sunlight condition, the mirror and the magnifying glass are slightly greater than control for the sunset scenario, and the mirror and magnifying glass are much greater than the control for the cloudy sunlight condition. The difference between control and the optical devices were greatest during the cloudy sunlight condition with it being greater for the mirror.
 
-```{figure} images\Current vs. Sunlight Condition and Optical Device.png
+```{figure} images\Current vs. Sunlight Condition and Optical Device.svg
 :name: Figure 5
 :align: center
 
@@ -228,7 +228,7 @@ This chart ({numref}`Figure 4`) displays the output voltage measured during each
 
 This chart ({numref}`Figure 5`) displays the current generated during each of the 27 trials based on the calculations done with Ohm’s Law. The red points show the average current generated during the respective set of 3 trials. This chart is very similar to the voltage chart with the only difference being the scale because current & voltage are directly proportional. For that reason all the points seem to be in the same position relative to each other and similar observations and  conclusions to those made for the voltage graph can be made here.
 
-```{figure} images\Wattage vs. Sunlight Condition and Optical Device.png
+```{figure} images\Wattage vs. Sunlight Condition and Optical Device.svg
 :name: Figure 6
 :align: center
 
