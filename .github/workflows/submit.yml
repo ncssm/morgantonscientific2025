@@ -13,8 +13,6 @@ jobs:
       collection: '2025'
       kind: original
       path: papers/*
-      label: publish
-      publish: true
     secrets:
       CURVENOTE: ${{ secrets.CURVENOTE_TOKEN }}
       GITHUB: ${{ secrets.GITHUB_TOKEN }}
