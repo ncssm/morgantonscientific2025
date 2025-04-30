@@ -116,7 +116,7 @@ This graph ({numref}`Figure 3`) of the voltage output of each solar panel shows 
 
 #### Data From Trials With The LED Circuit
 
-```{table}
+```{table} Voltage and Illuminance for Time of Day and Solar Panel Type
 :widths: auto
 :name: solar-voltage-illuminance-table
 :align: center
@@ -174,17 +174,7 @@ Percent Change = $\frac{New - Original}{Original}*100$%
 
 *Resistance is 330 Ohms due to the 330 Ohm Resistor
 
-**Statistics Calculated:**
-
-- Average Voltage
-- Current
-- Average Current
-- Wattage
-- Average Wattage
-- Percent Change of Voltage & Current From Control
-- Percent Change of Wattage From Control
-
-```{table}
+```{table} Statistics Calculated from Trial Data
 :widths: auto
 :name: big-table
 :align: center
