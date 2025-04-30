@@ -36,36 +36,33 @@ This study considers the core-only section of the 2022 BRFSS. Optional or state-
 When someone participates in the survey, they can provide one of two response types for a given question. The first is an uninformative response: they elect not to respond or don’t know the answer. The second is informative. It can be an affirmative or negative, the option that matches their behavior or demographic, or the number of days or diseases that best fit their condition. All these potential responses are coded as a different number, which is indicated by the corresponding BRFSS Codebook for 2022 [@cdc_codebook_2023].
 
 If a question elicits an affirmative or negative response, as is the case with “During the past month, other than your regular job, did you participate in any physical activities or exercises such as running, calisthenics, golf, gardening, or walking for exercise?”, it is simple to code the potential responses:
-```
-  Yes = 1
-  No = 2
-  Don’t know / Not sure = 7
-  Refusal to answer = 9
-```
+
+- Yes = 1
+- No = 2
+- Don’t know / Not sure = 7
+- Refusal to answer = 9
+
 For questions where respondents select the best matching option from multiple choices (like behavioral tendencies or demographics), the coding varies by question due to the range of possible responses. For example, consider the question which determines current employment:
-```
-  “Are you currently… ?” 
-  Employed for wages = 1 
-  Self-employed = 2
-  Out of work for 1 year or more = 3 
-  Out of work for less than 1 year = 4
-  A Homemaker = 5 
-  A Student = 6 
-  Retired = 7 
-  Unable to work = 8 
-  Refused = 9
-```
+
+#### “Are you currently… ?” ####
+- Employed for wages = 1 
+- Self-employed = 2
+- Out of work for 1 year or more = 3 
+- Out of work for less than 1 year = 4
+- A Homemaker = 5 
+- A Student = 6 
+- Retired = 7 
+- Unable to work = 8 
+- Refused = 9
+
 Finally, questions for which responses are provided by selecting a number of days or conditions are coded based on the number provided by the respondent. Further distinctions can be manually recoded once the data is downloaded from the CDC. Consider the following question:
-```
-  “Now thinking about your mental health, which includes stress, 
-  depression, and problems with emotions, for how many days 
-  during the past 30 days was your mental health not good?”
-  
-  Number of days = _ _ (01- 30) 
-  None = 88 
-  Don’t know / Not sure = 77 
-  Refused = 99
-```
+
+#### “Now thinking about your mental health, which includes stress, depression, and problems with emotions, for how many days during the past 30 days was your mental health not good?”
+- Number of days = _ _ (01-30) 
+- None = 88 
+- Don’t know / Not sure = 77 
+- Refused = 99
+
 Note that the “catch-all” (None, Don’t know / Not sure, Refused) codes have been multiplied by 11 because it is possible for the respondent to report 7, 8, or 9 days of poor mental health in the past month. This removes ambiguity regarding the significance of a particular code. This is done any time there is a possibility of an overlap between an informative response and a catch-all code [@cdc_codebook_2023].
 
 The CDC recodes responses to make analysis more straightforward. For yes/no and categorical questions, it simplifies the levels and groups all missing responses under code 9 [@cdc_calculated_2023]. For numerical responses (like number of days or conditions), it creates standardized levels. These recoding procedures help streamline data analysis. Variables recoded by the CDC are preceded with an underscore (_).
@@ -73,131 +70,130 @@ The CDC recodes responses to make analysis more straightforward. For yes/no and 
 All responses containing 7/9 and 77/99 codes in the analyzed variables were removed to prevent these non-substantive responses from artificially skewing the statistical calculations.
 
 The following were used as predictor (independent) variables for this analysis. Manual recodes are noted where applied. If a variable was renamed for this analysis, this is indicated by an arrow next to the original variable name.
-```
-  _SEX
-    Male = 1
-    Female = 2
 
-  _AGE_G
-    Age 18 to 24 = 1
-    Age 25 to 34 = 2
-    Age 35 to 44 = 3
-    Age 45 to 54 = 4
-    Age 55 to 64 = 5
-    Age 65 or older = 6
+**_SEX**
+  - Male = 1
+  - Female = 2
 
-  _RACEPR1
-    White only, non-Hispanic = 1
-    Black only, non-Hispanic = 2
-    American Indian or Alaskan Native only, non-Hispanic = 3
-    Asian only, non-Hispanic = 4
-    Native Hawaiian or other Pacific Islander only, non-Hispanic = 5
-    Multiracial, non-Hispanic = 6
-    Hispanic = 7
+**_AGE_G**
+  - Age 18 to 24 = 1
+  - Age 25 to 34 = 2
+  - Age 35 to 44 = 3
+  - Age 45 to 54 = 4
+  - Age 55 to 64 = 5
+  - Age 65 or older = 6
 
-  _EDUCAG 🡪 _educag_
-    Did not graduate High School = 1
-    Graduated High School = 2
-    Attended College or Technical School = 3
-    Graduated from College or Technical School = 4
+**_RACEPR1**
+  - White only, non-Hispanic = 1
+  - Black only, non-Hispanic = 2
+  - American Indian or Alaskan Native only, non-Hispanic = 3
+  - Asian only, non-Hispanic = 4
+  - Native Hawaiian or other Pacific Islander only, non-Hispanic = 5
+  - Multiracial, non-Hispanic = 6
+  - Hispanic = 7
 
-  MARITAL 🡪 _marital_
-    Married = 1
-    Divorced = 2
-    Widowed = 3
-    Separated = 4
-    Never married = 5
-    A member of an unmarried couple = 6
+\_**EDUCAG** 🡪 \_**educag**\_
+  - Did not graduate High School = 1
+  - Graduated High School = 2
+  - Attended College or Technical School = 3
+  - Graduated from College or Technical School = 4
+
+**MARITAL** 🡪 \_**marital**\_
+  - Married = 1
+  - Divorced = 2
+  - Widowed = 3
+  - Separated = 4
+  - Never married = 5
+  - A member of an unmarried couple = 6
   
-  EMPLOY1 🡪 _employ1_
-    Employed for wages = 1
-    Self-employed = 2
-    Out of work for 1 year or more = 3
-    Out of work for less than 1 year = 4
-    A Homemaker = 5
-    A Student = 6
-    Retired = 7
-    Unable to work = 8
+**EMPLOY1** 🡪 \_**employ1**\_
+  - Employed for wages = 1
+  - Self-employed = 2
+  - Out of work for 1 year or more = 3
+  - Out of work for less than 1 year = 4
+  - A Homemaker = 5
+  - A Student = 6
+  - Retired = 7
+  - Unable to work = 8
 
-  _INCOMG1 🡪 _income3_
-    Less than $15,000 = 1
-    $15,000 to < $25,000 = 2
-    $25,000 to < $35,000 = 3
-    $35,000 to < $50,000 = 4
-    $50,000 to < $100,000 = 5
-    $100,000 to < $200,000 = 6
-    $200,000 or more = 7
+_**INCOMG1** 🡪 \_**income3**\_
+  - Less than $15,000 = 1
+  - $15,000 to < $25,000 = 2
+  - $25,000 to < $35,000 = 3
+  - $35,000 to < $50,000 = 4
+  - $50,000 to < $100,000 = 5
+  - $100,000 to < $200,000 = 6
+  - $200,000 or more = 7
 
-  VETERAN3 🡪 _veteran3_
-    Yes = 1
-    No = 2
+**VETERAN3** 🡪 _**veteran3**_
+  - Yes = 1
+  - No = 2
 
-  _CHLDCNT 🡪 _CHLDCNT_
-    No children in household = 1
-    One child in household = 2
-    Two children in household = 3
-    Three children in household = 4
-    Four children in household = 5
-    Five or more children in household = 6
+\_**CHLDCNT** 🡪 \_**CHLDCNT**\_
+  - No children in household = 1
+  - One child in household = 2
+  - Two children in household = 3
+  - Three children in household = 4
+  - Four children in household = 5
+  - Five or more children in household = 6
 
-  _TOTINDA 🡪 _TOTINDA_
-    Had physical activity or exercise = 1
-    No physical activity or exercise in the last 30 days = 2
+\_**TOTINDA** 🡪 \_**TOTINDA**\_
+  - Had physical activity or exercise = 1
+  - No physical activity or exercise in the last 30 days = 2
 
-  _RFSMOK3 🡪 _RFSMOK3_
-    No = 1
-    Yes = 2
+\_**RFSMOK3** 🡪 \_**RFSMOK3**\_
+  - No = 1
+  - Yes = 2
 
-  _RFBING6 🡪 _RFBING6_
-    No = 1
-    Yes = 2
+\_**RFBING6** 🡪 \_**RFBING6**\_
+  - No = 1
+  - Yes = 2
 
-  DIABETES4, _MICHD, CVDSTRK3, _LTASTH1, _DRDXAR2, CHCSCNC1, 
-  CHCOCNC1, CHCCOPD3, CHCKDNY2 🡪 chronic_disease
-    Manages no chronic conditions = 1
-    Manages 1-2 chronic conditions = 2
-    Manages 3-5 chronic conditions = 3
-    Manages 6-8 chronic conditions = 4
+**DIABETES4, \_MICHD, CVDSTRK3, \_LTASTH1, \_DRDXAR2, CHCSCNC1, CHCOCNC1, CHCCOPD3, CHCKDNY2** 🡪 **chronic\_disease**
+  - Manages no chronic conditions = 1
+  - Manages 1-2 chronic conditions = 2
+  - Manages 3-5 chronic conditions = 3
+  - Manages 6-8 chronic conditions = 4
 
   This variable was recoded. First, the existence of each chronic condition 
   (diabetes, cancer, asthma, arthritis, chronic kidney disease, stroke, coronary 
   heart disease, or chronic obstructive pulmonary disease) was recorded. Respondents 
   were then grouped by the number of conditions they managed, as indicated above.
-```
+
 The following was used as the outcome (dependent) variable. The 14-day cutoff is based on the CDC’s recommendation for classifying a respondent’s mental health as frequently poor [@cdc_codebook_2023]. 
-```
-  _MENT14D 🡪 _ment14_
-    Less than 14 days of poor mental health in the last 30 days (“satisfactory”) = 0
-    14 or more poor mental health days in the last 30 days (“frequent, poor”) = 1
+
+**\_MENT14D** 🡪 \_**ment14**\_
+  - Less than 14 days of poor mental health in the last 30 days (“satisfactory”) = 0
+  - 14 or more poor mental health days in the last 30 days (“frequent, poor”) = 1
 
   This variable was manually recoded to create a binary outcome, 
   which is necessary to perform logistic regression analysis.
-```
+
 ### Cross-tabulation for Column Percentages
 Once the variables were recoded, original frequency counts were found for each cross tabulation between all predictor variable levels and the two outcome variable levels. Then, a weighted count for each cross-tabulation was generated (based on the CDC’s survey design weighting, stratification, and clustering). This allows the number to more accurately represent the true number of United States adults who fit a given cross-tabulation (give or take the standard error upon weighting, which is also included). Column percentages were calculated by taking the weighted number of people with FPMH in each level and dividing by the weighted total number of people in the same level. For example, the column percentage for adult women in the United States with frequent poor mental health was found by dividing that weighted frequency by the estimated total number of adult women in the United States (also a weighted frequency count). 95% confidence intervals were then found for each column percentage based on the standard errors of the respective weighted frequencies.
 
 Rao-Scott chi-squared tests were performed on weighted frequency counts for each cross tabulation. This allows one to determine whether the distribution of adults reporting FPMH differed by cross-tabulation. The Rao-Scott chi-squared test was chosen because these frequency counts are weighted. A standard Pearson chi-squared test cannot account for the effect of weighting, stratification, and clustering [@rao_analysis_1981]. Significance was set at a p-value < 0.01.
 
 ### Multivariate Logistic Regression Analysis
-A multivariate logistic regression model was built based on the recoded variables. This was used to assess the variation each factor had on FPHM. The logistic regression provides the multiplicative change in odds that _ment14_ = 1 for each one-unit increase in a given predictor variable, while holding all other variables constant [@sperandei_understanding_2014].
+A multivariate logistic regression model was built based on the recoded variables. This was used to assess the variation each factor had on FPHM. The logistic regression provides the multiplicative change in odds that \_ment14\_ = 1 for each one-unit increase in a given predictor variable, while holding all other variables constant [@sperandei_understanding_2014].
 
 For each variable, one level was chosen as the reference category. For a clearer comparison, the level expected to have the lowest prevalence of FPMH was set for reference. These are indicated below for each predictor variable:
-```
-  _SEX: Male (1)
-  _AGE_G: Age 18 to 24 (1)
-  _RACEPR1: White only, non-Hispanic (1)
-  _educag_: Graduated from College or Technical School (4)
-  _marital_: Married (1)
-  _employ1_: Employed for wages (1)
-  _income3_: $200,000 or more (7)
-  _veteran3_: No (2)
-  _CHLDCNT_: No children in household (1)
-  _TOTINDA_: Had physical activity or exercise (1)
-  _RFSMOK3_: No (1)
-  _RFBING6_: No (1)
-  chronic_disease: Manages no chronic conditions (1)
-```
-The desired logistic regression returns coefficients (β) which represent the log odds for each predictor variable level compared to its reference level (both in relation to an individual’s likelihood of developing FPMH). Each log odd is then transformed into an odds ratio by calculating e^β (raising e to the power of each log odd) [@sperandei_understanding_2014]. A significant odds ratio is a valuable tool to compare the effects of each level on the outcome variable. This value indicates how much more or less likely an individual in a specific level is to report FPMH compared to the reference level, while holding the other predictor variables constant. The significance of each odds ratio was determined by the 95% confidence interval. If the interval included 1, the odds ratio was deemed insignificant [@sperandei_understanding_2014].
+
+- \_SEX: Male (1)
+- \_AGE\_G: Age 18 to 24 (1)
+- \_RACEPR1: White only, non-Hispanic (1)
+- \_educag\_: Graduated from College or Technical School (4)
+- \_marital\_: Married (1)
+- \_employ1\_: Employed for wages (1)
+- \_income3\_: $200,000 or more (7)
+- \_veteran3\_: No (2)
+- \_CHLDCNT\_: No children in household (1)
+- \_TOTINDA\_: Had physical activity or exercise (1)
+- \_RFSMOK3\_: No (1)
+- \_RFBING6\_: No (1)
+- chronic_disease: Manages no chronic conditions (1)
+
+The desired logistic regression returns coefficients (β) which represent the log odds for each predictor variable level compared to its reference level (both in relation to an individual’s likelihood of developing FPMH). Each log odd is then transformed into an odds ratio by calculating $e^β$ (raising e to the power of each log odd) [@sperandei_understanding_2014]. A significant odds ratio is a valuable tool to compare the effects of each level on the outcome variable. This value indicates how much more or less likely an individual in a specific level is to report FPMH compared to the reference level, while holding the other predictor variables constant. The significance of each odds ratio was determined by the 95% confidence interval. If the interval included 1, the odds ratio was deemed insignificant [@sperandei_understanding_2014].
 
 ## Results
 The following tables provide the cross-tabulation results from the most significant predictor variables.
@@ -280,7 +276,7 @@ The following tables provide the cross-tabulation results from the most signific
 
 **Table 6: FPMH by Current Smoking Status**
 
-```{figure} images/FPMH_Smoking.png
+```{figure} images/FPMH_Smoking.svg
 :name: Figure1
 :align: center
 
@@ -301,7 +297,7 @@ FPMH by Smoking Status
 
 **Table 7: FPMH by Number of Chronic Conditions**
 
-```{figure} images/Chronic_Disease.png
+```{figure} images/Chronic_Disease.svg
 :name: Figure2
 :align: center
 
@@ -323,7 +319,7 @@ This analysis supports the characterization of poor mental health as a prominent
 
 Behavioral and quality of life factors also significantly affected an individual’s likelihood of having FPMH, as those who completed no physical activity in the last 30 days (21.34%), current smokers (27.41%), those who engaged in binge drinking in the last 30 days (19.78%), and those who managed chronic diseases (17.07% - 40.52%) also experienced a higher prevalence of FPMH than the national average (p-value <.0001 for all).
 
-The multivariate model revealed more about the demographic, behavioral, and quality of life factors associated most strongly with FPMH. Notably, adults unable to work were 2.49 (95% CI: 2.28 – 2.72) times more likely to report FPMH than adults employed for wages. FPMH prevalence increased as the income bracket decreased: FPMH was 1.91 (95% CI: 1.66 – 2.19) times more likely for adults in households earning less than $15,000 than those in households earning $200,000 or more. Smoking posed the highest behavioral risk of FPMH, as current smokers were 1.55 (95% CI: 1.46 - 1.64) times more likely to have FPMH than non-smokers. Similarly, those who lacked physical activity were 1.45 (95% CI: 1.38 – 1.53) times more likely to have FPMH than those who exercised in the last month. Finally, the prevalence of FPMH increased with an individual’s number of chronic diseases. Adults managing 6-8 chronic diseases were 4.20 (95% CI: 2.91 – 6.06) times more likely to meet criteria for FPMH than those managing no chronic diseases.
+The multivariate model revealed more about the demographic, behavioral, and quality of life factors associated most strongly with FPMH. Notably, adults unable to work were 2.49 (95% CI: 2.28 – 2.72) times more likely to report FPMH than adults employed for wages. FPMH prevalence increased as the income bracket decreased: FPMH was 1.91 (95% CI: 1.66 – 2.19) times more likely for adults in households earning less than \$15,000 than those in households earning \$200,000 or more. Smoking posed the highest behavioral risk of FPMH, as current smokers were 1.55 (95% CI: 1.46 - 1.64) times more likely to have FPMH than non-smokers. Similarly, those who lacked physical activity were 1.45 (95% CI: 1.38 – 1.53) times more likely to have FPMH than those who exercised in the last month. Finally, the prevalence of FPMH increased with an individual’s number of chronic diseases. Adults managing 6-8 chronic diseases were 4.20 (95% CI: 2.91 – 6.06) times more likely to meet criteria for FPMH than those managing no chronic diseases.
 
 ### Implications
 These results suggest that there is a significant income-based disparity among adults affected by FPMH in the United States. Many treatments such as therapy and medication are not readily accessible to lower-income households. This finding highlights the need for expanded support programs that provide mental health resources for those struggling financially, such as increased funding for community mental health centers and more flexible payment options. Physical activity, an accessible method of managing mental health, also requires enhanced promotion. Finally, work is needed to integrate the mental health needs of physically vulnerable patients into their care strategies. These patients require support for both managing chronic conditions and the associated mental stress.
