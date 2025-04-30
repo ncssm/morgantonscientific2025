@@ -125,7 +125,7 @@ _**INCOMG1** 🡪 \_**income3**\_
   - $100,000 to < $200,000 = 6
   - $200,000 or more = 7
 
-**VETERAN3** 🡪 _**veteran3**_
+**VETERAN3** 🡪 \_**veteran3**\_
   - Yes = 1
   - No = 2
 
