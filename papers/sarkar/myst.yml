@@ -6,13 +6,13 @@ project:
   title: Evaluating the Effect of an Externally Applied Electric Field on Fluorescing Alpha-Synuclein Aggregates in NL5901 Parkinson's Disease Model of Caenorhabditis elegans
   description: This study investigates the effects of electric field exposure on alpha-synuclein aggregation and motor function in C. elegans models of Parkinson's disease. Using fluorescence imaging and motion tracking, the research quantifies protein degradation and locomotion improvements, revealing a significant reduction in alpha-synuclein aggregates and an increase in worm mobility post-treatment. These findings suggest that electric fields could be a promising non-invasive approach for mitigating neurodegenerative disease symptoms.
   keywords:
-      - Alpha-synuclein
-      - aggregation
-      - velocity
-      - C.Elegans
-      - degradation
-      - Parkinson's Disease
-      - Fluorescent
+    - Alpha-synuclein
+    - aggregation
+    - velocity
+    - C.Elegans
+    - degradation
+    - Parkinson's Disease
+    - Fluorescent
   subject: Biology
   authors:
     - name: Adrija Sarkar
@@ -20,13 +20,13 @@ project:
       email: sarkar25a@ncssm.edu
       affiliation: ncssm
       roles:
-      - Conceptualization
-      - Data curation
-      - Formal analysis
-      - Investigation
-      - Methodology
-      - Visualization
-      - Writing-original draft
+        - Conceptualization
+        - Data curation
+        - Formal analysis
+        - Investigation
+        - Methodology
+        - Visualization
+        - Writing-original draft
   abbreviations:
     PD: Parkinson's disease
     YFP: Yellow fluorescent protein

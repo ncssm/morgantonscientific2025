@@ -3,13 +3,12 @@ extends:
   - ../morganton2025.yml
 project:
   id: morganton-2025-kulla
-project:
   title: Utilizing Enzymatic and Chemical Delignification Methods on Fibrous Plants for Decentralized Production of Absorbent Materials for Menstrual Pads in Semi-Arid Regions
   description: In the interest of finding more sustainable and accessible materials to replace cotton pads for the multitude of women unable to access safe menstrual products, the author conducts experiments involving the absorption of pineapple and sisal fibers to produce biodegradable options.
   keywords:
-      - Enzymatic
-      - Delignification
-      - Fibrous plants
+    - Enzymatic
+    - Delignification
+    - Fibrous plants
   subject: Biology
   authors:
     - name: Prerana Kulla
@@ -17,17 +16,17 @@ project:
       email: kulla25p@ncssm.edu
       affiliation: NCSSM
       roles:
-      - Conceptualization
-      - Data curation
-      - Formal analysis
-      - Investigation
-      - Methodology
-      - Project administration
-      - Resources
-      - Validation
-      - Visualization
-      - Writing original draft
-      - Review & editing
+        - Conceptualization
+        - Data curation
+        - Formal analysis
+        - Investigation
+        - Methodology
+        - Project administration
+        - Resources
+        - Validation
+        - Visualization
+        - Writing original draft
+        - Review & editing
   abbreviations:
     FTIR: Fourier Transform Infrared Spectroscopy
     ABTS: 2,2'-azino-bis(3-ethylbenzothiazoline-6-sulfonic acid Colorimetric Assay

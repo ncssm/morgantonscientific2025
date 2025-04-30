@@ -5,17 +5,17 @@ project:
   id: morganton-2025-gencel
   title: In Silico Exploration of L-Valine Ester Prodrug Designs for Enhanced Pharmacokinetics in BCS Class IV Nucleoside Antivirals.
   description: This study utilized software such as Gaussian 16 to conduct molecular orbital, natural bond orbital, and bond order calculations to predict qualities of prodrugs. Additionally, this study utilized the StarDrop software to predict effectiveness when binding to important target proteins.
-  keywords: 
+  keywords:
     - Prodrug
     - Valine
     - Valtorcitabine
-    - Valcyclopropavir 
+    - Valcyclopropavir
     - Pharmacokinetic
     - Molecular Docking
     - PepT1
     - Valacyclovir Hydrolase
-  authors: 
-      - name: Kevin Gencel
+  authors:
+    - name: Kevin Gencel
       orcid: 0009-0001-5792-455X
       affiliation: ncssm
       email: gencel25k@ncssm.edu
@@ -33,10 +33,10 @@ project:
     DFT: Density functional theory
     QSAR: quantitative structure activity relationship
     ADME: absorption, distribution, metabolism, and excretion
-    HBV: Hepatitis B Virus  
+    HBV: Hepatitis B Virus
     BCS: Biopharmaceutics Classification System
     B3LYP: Lee-Yang-Parr correlation functional
     CMV: Cytomegalovirus
     NBO: Natural Bond Orbital
-    HOMO: highest occupied molecular orbital 
+    HOMO: highest occupied molecular orbital
     LUMO: lowest unoccupied molecular orbital
