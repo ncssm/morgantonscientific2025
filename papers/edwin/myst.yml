@@ -1,26 +1,25 @@
-# See docs at: https://mystmd.org/guide/frontmatter
 version: 1
+extends:
+  - ../morganton2025.yml
 project:
-  id: 7249b745-e0cb-4367-acca-67be88181e4d
+  id: morganton-2025-edwin
   title: Exploring the Use of Immunotherapy Techniques in Lymphocytic Leukemia
-  # description:
+  # description: awaiting description
   keywords: 
     - Lymphocytic Leukemia
     - Immunotherapy
     - CAR T-Cell Therapy
     - Blinatumomab
+  subject: Biology
   authors: 
     - name: Enoch Edwin
-      affiliation: NCSSM
-      email: edwin26e@ncssm.edu
+    orcid: 0009-0000-6007-9505
+    affiliation: ncssm
+    email: edwin26e@ncssm.edu
+    #roles:
+    #- awaiting roles
   abbreviations:
     CAR: chimeric antigen receptor
     ALL: acute lymphoblastic leukemia
     CLL: chronic lymphocytic leukemia
-  # github:
-  # To autogenerate a Table of Contents, run "myst init --write-toc"
-site:
-  template: book-theme
-  # options:
-  #   favicon: favicon.ico
-  #   logo: site_logo.png
+
