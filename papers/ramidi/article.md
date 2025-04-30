@@ -6,7 +6,7 @@ abstract: |
 
 ## Introduction
 
-As the demand for energy continues to grow, finding sustainable solutions has become one of the most pressing challenges in today’s world. While previous generations heavily relied on fossil fuels for their energy needs, the environmental costs make them unsustainable in the long run. Since the Industrial Revolution, our dependence on fossil fuels significantly grew, leading to an increase in carbon dioxide levels in Earth’s atmosphere. Over the last two centuries, CO2  has risen by 50%. Since 2002 itself, we have increased by 55 parts per million to 420 ppm, referring to CO2 molecules per 1 million molecules of dry air [@change_carbon_nodate]. Carbon dioxide being a greenhouse gas essentially traps the sun’s solar radiation within the atmosphere and causes surface temperatures to rise. While this greenhouse effect is a natural process critical for maintaining Earth’s habitable climate, anthropogenic activities since the 1800s have intensified it far beyond protective levels. This resulting global warming poses harmful threats to human health, wildlife, agriculture, and our environment as a whole [@manisalidis_environmental_2020].
+As the demand for energy continues to grow, finding sustainable solutions has become one of the most pressing challenges in today’s world. While previous generations heavily relied on fossil fuels for their energy needs, the environmental costs make them unsustainable in the long run. Since the Industrial Revolution, our dependence on fossil fuels significantly grew, leading to an increase in carbon dioxide levels in Earth’s atmosphere. Over the last two centuries, $CO_2$ has risen by 50%. Since 2002 itself, we have increased by 55 parts per million to 420 ppm, referring to $CO_2$ molecules per 1 million molecules of dry air [@change_carbon_nodate]. Carbon dioxide being a greenhouse gas essentially traps the sun’s solar radiation within the atmosphere and causes surface temperatures to rise. While this greenhouse effect is a natural process critical for maintaining Earth’s habitable climate, anthropogenic activities since the 1800s have intensified it far beyond protective levels. This resulting global warming poses harmful threats to human health, wildlife, agriculture, and our environment as a whole [@manisalidis_environmental_2020].
 
 Renewable energy offers a promising path forward. Unlike fossil fuels, they are abundant, clean, and naturally replenished in a small period of time, making them critical in the transition to sustainable energy systems. Hydroelectric and wind energy both use moving streams to spin a turbine and generate electricity, achieving renewability, but they aren’t consistent worldwide. Solar energy, unlike the others, has the ability to revolutionize global power generation. Throughout history, the sun has been a constant, powerful source of light and energy. Despite its potential, there’s still the challenge in efficiency and reliability, especially under variable conditions. Overcoming these challenges is essential to realizing its full promise as a leading energy source. By utilizing passive devices, meaning those that are not taking extra energy from outside, and enhancing that for energy capture and conversion, can significantly improve the performance of solar panels. This experiment integrates optical tools, specifically, magnifying glasses and mirrors to achieve this. 
 
@@ -20,7 +20,7 @@ Solar panels are used to harness the power of the sun, a renewable source of ene
 
 Of course, this is only if the photon strikes the solar cell with enough energy. This may not always be the case, such as cloudy days or when the sun isn’t up. By using magnifying glasses, the goal is to concentrate sunlight right on the solar panel. This explanation draws from the science behind the optics used in magnifying glasses. A magnifying lens is made of a mix of two different types of surfaces coming from either convex, concave, or flat. Lens’ also have focal points which is where all the light rays converge after passing through. With this attribute, magnifying glasses have the opportunity to concentrate sunlight to any desired location. As a result, more photons will be directed at a single point to knock electrons loose from their atoms, and overall, harness more energy. Similarly, the incorporation of mirrors allows the solar panel to maximize its photon absorption. By reflecting additional sunlight onto the panel's surface, the mirrors enhance its ability to harness energy from both direct and reflected solar radiation [@tobias_design_2020]. 
 
-On average, a solar cell can produce 0.5-0.6 volts. The main factors that can play a role in the power generated, which is the product of both current & voltage, is efficiency, surface area, and its proportionality to the intensity of light striking the solar cell. Under optimal sunlight conditions, a standard PV panel with a surface area of 160 cm2 can generate about 2 watts at 100% intensity. During days where this is not the case, wattage can drop significantly. Studies indicate that incorporating passive devices can substantially increase the efficiency and output of PV cells. Passive devices that would work in this situation include reflectors, cooling systems, solar tracking mounts, concentrators, etc. Without drawing the need of additional external energy, these mechanisms are valuable in optimizing solar cell performance [@arshad_improvement_2014].
+On average, a solar cell can produce 0.5-0.6 volts. The main factors that can play a role in the power generated, which is the product of both current & voltage, is efficiency, surface area, and its proportionality to the intensity of light striking the solar cell. Under optimal sunlight conditions, a standard PV panel with a surface area of 160 $cm^2$ can generate about 2 watts at 100% intensity. During days where this is not the case, wattage can drop significantly. Studies indicate that incorporating passive devices can substantially increase the efficiency and output of PV cells. Passive devices that would work in this situation include reflectors, cooling systems, solar tracking mounts, concentrators, etc. Without drawing the need of additional external energy, these mechanisms are valuable in optimizing solar cell performance [@arshad_improvement_2014].
 
 ## Experiment 
 
@@ -37,7 +37,7 @@ On average, a solar cell can produce 0.5-0.6 volts. The main factors that can pl
 
 ### Methodology
 
-1. Find a sunny spot around noon on a sunny day to set up to record data
+1. Find a outdoor spot around noon on a sunny day to set up to record data
 2. Place solar panels on a table (keep them flat) such that they are right in the sun
 3. Connect the positive end of the voltage probe to the positive wire of the solar panel and the negative end of the voltage probe to the negative wire of the solar panel
 4. Repeat step 3 for the other two solar panels
@@ -87,6 +87,7 @@ Sunset      | Magnifying Glass     | 1.765
 :name: Figure 1
 :align: center
 
+Voltage output of solar panel at noon on a sunny day
 ```
 
 This graph ({numref}`Figure 1`) of the voltage output of each solar panel shows when they were tested at noon on a sunny day. This graph along with the statistics in the table above show that the voltage outputs in a sunny light condition were very similar. The Control and Mirror followed a similar trend while the Magnifying Glass had a very inconsistent trend. That is likely due to the many variables that could affect the output of the solar panel like the heat, because solar panels do not work well when hot, and a magnifying glass can concentrate light causing the heat to also rise which could be a possible explanation for the Magnifying Glass’s voltage output trend.
@@ -97,6 +98,7 @@ This graph ({numref}`Figure 1`) of the voltage output of each solar panel shows 
 :name: Figure 2
 :align: center
 
+Voltage output of solar panel at noon on a cloudy day
 ```
 
 This graph ({numref}`Figure 2`) of the voltage output of each solar panel shows when they were tested on a cloudy day. The voltages for all 3 light modifying conditions seem to have followed a similar wave like trend that was likely caused by a change in lighting as the clouds moved. The graph clearly shows how the solar panel which utilized the mirror had a greater voltage output for the entirety of the test while the control and the magnifying glass solar panels were very similar in voltage output with only a 0.022V difference in average. The mirror solar panel was able to output a voltage that was 0.096V greater than the control on average which is shown by the statistics in the table above.
@@ -107,6 +109,7 @@ This graph ({numref}`Figure 2`) of the voltage output of each solar panel shows 
 :name: Figure 3
 :align: center
 
+Voltage output of solar panel during sunset
 ```
 
 This graph ({numref}`Figure 3`) of the voltage output of each solar panel shows when they were tested during a sunset. The voltages for all 3 light modifying conditions seem to have followed the same declining trend which was likely caused by the sun going down as it set. This graph shows the mirror solar panel having the greatest voltage output followed by the magnifying glass solar panel, which is followed by the control solar panel that that is not experiencing any light modification. The mirror likely was able to produce the greatest voltage output as the mirror was situated behind the solar panel allowing the solar panel to get hit by the photons that reach the panel direction, in addition to the photons that are reflected onto the solar panel by the mirror. The statistics in the table on above show that the mirror solar panel was able to produce an output that was 0.072V greater than the output of the control on average.
