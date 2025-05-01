@@ -83,7 +83,7 @@ Sunset      | Magnifying Glass     | 1.765
 
 **Sunny**
 
-```{figure} images\Voltage During Sunny.png
+```{figure} images/Voltage During Sunny.png
 :name: Figure 1
 :align: center
 
@@ -94,7 +94,7 @@ This graph ({numref}`Figure 1`) of the voltage output of each solar panel shows 
 
 **Cloudy**
 
-```{figure} images\Voltage During Cloudy.png
+```{figure} images/Voltage During Cloudy.png
 :name: Figure 2
 :align: center
 
@@ -105,7 +105,7 @@ This graph ({numref}`Figure 2`) of the voltage output of each solar panel shows 
 
 **Sunset**
 
-```{figure} images\Voltage During Sunset.png
+```{figure} images/Voltage During Sunset.png
 :name: Figure 3
 :align: center
 
@@ -218,7 +218,7 @@ Percent Change = $\frac{New - Original}{Original}*100$%
 
 This chart ({numref}`Figure 4`) displays the output voltage measured during each of the 27 trials where the red dot is the average of the respective 3 trials. This chart shows how the voltage output for all 3 optical devices was relatively the same in the sunny sunlight condition, the mirror and the magnifying glass are slightly greater than control for the sunset scenario, and the mirror and magnifying glass are much greater than the control for the cloudy sunlight condition. The difference between control and the optical devices were greatest during the cloudy sunlight condition with it being greater for the mirror.
 
-```{figure} images\Current vs. Sunlight Condition and Optical Device.svg
+```{figure} images/Current vs. Sunlight Condition and Optical Device.svg
 :name: Figure 5
 :align: center
 
@@ -228,7 +228,7 @@ This chart ({numref}`Figure 4`) displays the output voltage measured during each
 
 This chart ({numref}`Figure 5`) displays the current generated during each of the 27 trials based on the calculations done with Ohm’s Law. The red points show the average current generated during the respective set of 3 trials. This chart is very similar to the voltage chart with the only difference being the scale because current & voltage are directly proportional. For that reason all the points seem to be in the same position relative to each other and similar observations and  conclusions to those made for the voltage graph can be made here.
 
-```{figure} images\Wattage vs. Sunlight Condition and Optical Device.svg
+```{figure} images/Wattage vs. Sunlight Condition and Optical Device.svg
 :name: Figure 6
 :align: center
 
@@ -258,21 +258,21 @@ With this energy optimization, the future implications are limitless, not only r
 
 ## Experiment Pictures
 
-```{figure} images\Experiment During Sunny.jpeg
+```{figure} images/Experiment During Sunny.jpeg
 :name: Figure 7
 :align: center
 
 Experiment on Sunny Day at Noon
 ```
 
-```{figure} images\Experiment During Cloudy.jpeg
+```{figure} images/Experiment During Cloudy.jpeg
 :name: Figure 8
 :align: center
 
 Experiment on Cloudy Day
 ```
 
-```{figure} images\Experiment During Sunset.jpeg
+```{figure} images/Experiment During Sunset.jpeg
 :name: Figure 9
 :align: center
 
