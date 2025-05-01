@@ -14,7 +14,7 @@ Acute lymphocytic leukemia requires expedited treatment, often leading to a lowe
 
 ## Immunology Methods to Prevent and Hinder Lymphocytic Leukemia
 
-```{figure} images\Blinatumomab MOA2.PNG
+```{figure} images/Blinatumomab MOA2.PNG
 :label: Figure 1
 :align: center
 
@@ -46,7 +46,7 @@ A recent Phase II clinical trial by Amgen Research (Munich) GmbH investigated th
 
 Another study in New England did a Phase 1 clinical trial that started with a patient diagnosed with chronic lymphocytic leukemia (CLL) in 1996. The patient had treatment started in 2002, which was Rituximab plus fludarabine treatment (Chemotherapy and Targeted Therapy Combination). The clinical treatment started in July of 2010. The purpose of the treatment was to test the safety and feasibility of CART19 in relapsed/refractory B-cell neoplasms. Autologous T-cells were genetically modified using a lentiviral vector to express CD19-specific CAR. Some of the inclusion criteria were that patients had to be of sound body and health, express previous treatment failure, have autologous T-Cell availability to harvest the patients T-Cells, have adequate organ function, and the patient must have signed informed consent. 
 
-```{figure} images\nejmoa1103849_f1.jpg
+```{figure} images/nejmoa1103849_f1.jpg
 :label: Figure 2
 :align: center
 
