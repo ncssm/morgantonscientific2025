@@ -16,8 +16,9 @@ project:
       orcid: 0009-0000-6007-9505
       affiliation: ncssm
       email: edwin26e@ncssm.edu
-      # roles:
-      # - awaiting roles
+      roles:
+        - Conceptualization
+        - Writing-original draft
   abbreviations:
     CAR: chimeric antigen receptor
     ALL: acute lymphoblastic leukemia
