@@ -21,6 +21,7 @@ project:
     - Microbial Interventions
     - Probiotic Strains
     - Silkworm Model
+  subject: Biology
   authors:
     - name: Vivek Gottumukkala
       orcid: 0009-0008-1767-5377
@@ -37,11 +38,3 @@ project:
         - Visualization
         - Writing-original draft
 
-  subject: Biology
-  venue: The Morganton Scientific
-  exports:
-    - format: typst
-      article: article.md
-      template: https://github.com/myst-templates/scipy.git
-site:
-  template: article-theme
