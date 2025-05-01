@@ -195,6 +195,7 @@ Statistical analysis revealed a Pearson correlation coefficient of -0.92, indica
 ```{figure} images/Figure 9 (1).png
 :label: correlation_agg_thrash
 :align:  center
+:width: 300px
 
  Correlation between Aggregation and Thrashing
 

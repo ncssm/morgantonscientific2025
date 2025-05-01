@@ -6,14 +6,11 @@ project:
   title: Modeling Shifts in Reversible Chemical Reactions and Economic Markets
   description: Both the economy and chemical reactions can act as a system in equilibrium. This papers explores this interdisciplinary concept by modeling reversible reactions using both chemical equilibrium and economic models utilizing software such as Gaussian and Mathematica-based modeling.
   keywords:
-    - Le Chatelier's Principle
-    - Reversible Reactions
-    - Perturbations
-    - Price Elasticity
-    - Supply
-    - Demand
-    - Equilibrium Constants
-    - Supply-Chain Shocks
+      - Le Chatelier's Principle
+      - Reversible Reactions
+      - Perturbations
+      - Price Elasticity
+      - Supply-Chain Shocks
   subject: Chemistry
   authors:
     - name: Radhika Goel
