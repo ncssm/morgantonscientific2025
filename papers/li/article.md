@@ -67,12 +67,11 @@ The results were analyzed to assess the strength and specificity of receptor-lig
 
 The docking results of CXCR4 showed some clusters of binding poses with variable interaction energies. Cluster 6 was the most promising cluster based on its SwissParam Score of -13.3878, indicating the highest binding affinity among all the clusters. This was further supported by the presence of numerous stabilizing hydrogen bonds and hydrophobic contacts. Visual inspection using UCSF Chimera highlighted key residues within the CXCR4 binding pocket that interacted with CXCL12, such as Asp262 and Glu288, which formed hydrogen bonds with the ligand’s polar groups. These interactions align with the receptor’s known binding mechanism and suggest a biologically plausible binding pose.
 
-Cluster 0, though slightly less favorable regarding binding affinity (SwissParam Score: -13.2294), showed the lowest AC Score of 66.855750, which indicates strong atomic-level interactions ({numref}`Table 1`). The binding poses of Cluster 0 showed a different orientation of CXCL12 inside the pocket, with key interactions involving residues such as Arg167 and His281. These are implicated in the stabilization of the hydrophobic core of the ligand, further underlining the relevance of the cluster. Although having a slightly higher SwissParam Score, Cluster 0 is still significant due to its unique interaction profile, which may be important for alternate binding modes under physiological conditions.
+Cluster 0, though slightly less favorable regarding binding affinity (SwissParam Score: -13.2294), showed the lowest AC Score of 66.855750, which indicates strong atomic-level interactions ({numref}`Table_1`). The binding poses of Cluster 0 showed a different orientation of CXCL12 inside the pocket, with key interactions involving residues such as Arg167 and His281. These are implicated in the stabilization of the hydrophobic core of the ligand, further underlining the relevance of the cluster. Although having a slightly higher SwissParam Score, Cluster 0 is still significant due to its unique interaction profile, which may be important for alternate binding modes under physiological conditions.
 
 
 :::{table} Cluster number, AC Score, and SwissParam Score for the CXCR4 and CXCL12 interaction docking
-
-:label: Table 1
+:label: Table_1
 :align: center
 
 |Cluster Number|AC Score|SwissParam Score|
@@ -99,11 +98,10 @@ From the analysis of interaction patterns, Cluster 6 showed a higher number of h
 Graph showing the cluster number vs. AC Score and SwissParam Score for the CXCR4 and CXCL12 interaction docking.
 ```
 
-Ligand selectivity was further tested by the docking of CXCL12 with CXCR3, its related receptor. The results showed that CXCL12 binds less effectively to CXCR3, as evidenced by its higher (less negative) SwissParam Scores across all clusters. For example, Cluster 0 of CXCR3, which had the best binding affinity, still had a SwissParam Score of -10.6949, considerably less favorable than those for CXCR4. Similarly, for CXCR3, Cluster 0 showed a better binding profile compared to Cluster 3, as it had more favorable scores ({numref}`Table 2`). And from the graph showing the AC score and SwissParam Score for CXCR3, we can see a pattern where cluster 3 has the lowest AC Score and SwissParam Score ({numref}`Figure 5`).
+Ligand selectivity was further tested by the docking of CXCL12 with CXCR3, its related receptor. The results showed that CXCL12 binds less effectively to CXCR3, as evidenced by its higher (less negative) SwissParam Scores across all clusters. For example, Cluster 0 of CXCR3, which had the best binding affinity, still had a SwissParam Score of -10.6949, considerably less favorable than those for CXCR4. Similarly, for CXCR3, Cluster 0 showed a better binding profile compared to Cluster 3, as it had more favorable scores ({numref}`Table_2`). And from the graph showing the AC score and SwissParam Score for CXCR3, we can see a pattern where cluster 3 has the lowest AC Score and SwissParam Score ({numref}`Figure 5`).
 
 :::{table} Cluster number, AC Score, and SwissParam Score for the CXCR3 and CXCL12 interaction docking.
-
-:label: Table 2
+:label: Table_2
 :align: center
 
 |Cluster Number|AC Score|SwissParam Score|
