@@ -10,6 +10,7 @@ project:
     - childhood maltreatment
     - emotional reactivity
     - relationships
+  subject: Biology
   authors:
     - name: Navya Bansal
       orcid: 0009-0005-6913-7069
@@ -35,5 +36,3 @@ project:
     LLV: Low-level violence
     SV: Severely violent
     EI: Emotional intelligence
-  subject: Biology
-  venue: The Morganton Scientific
