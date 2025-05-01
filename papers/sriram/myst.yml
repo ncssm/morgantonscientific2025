@@ -1,15 +1,34 @@
-# See docs at: https://mystmd.org/guide/frontmatter
 version: 1
+extends:
+  - ../morganton2025.yml
 project:
+  title: Harvesting Energy with Affordable Piezoelectric Sensors for Low-Power Biosensors
   id: morganton-2025-sriram
-  # title:
-  # description:
-  # keywords: []
-  # authors: []
-  # github:
-  # To autogenerate a Table of Contents, run "myst init --write-toc"
-site:
-  template: book-theme
-  # options:
-  #   favicon: favicon.ico
-  #   logo: site_logo.png
+  description: This study focuses on the feasibility of using affordable piezoelectric sensors to power low-power biosensors, aiming to reduce reliance on conventional batteries. 
+  keywords:
+    - Piezoelectricity
+    - Energy Harvesting
+    - Sustainable Energy
+    - Energy Conversions
+    - Low-power electronics
+    - Affordable power sources
+  subject: Engineering
+  authors:
+    - name: Ananya Sriram
+      orcid: 0009-0004-6302-1607
+      email: sriram25a@ncssm.edu
+      affiliation: ncssm
+      roles:
+        - Conceptualization
+        - Data curation
+        - Formal analysis
+        - Investigation
+        - Methodology
+        - Project administration
+        - Visualization
+        - Writing - Original Draft
+        - Writing - Review & Editing
+  abbreviations:
+    AC: Alternating current
+    DC: Direct current
+    mAh: milliamp-hour
