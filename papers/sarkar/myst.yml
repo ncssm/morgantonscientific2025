@@ -7,12 +7,10 @@ project:
   description: This study investigates the effects of electric field exposure on alpha-synuclein aggregation and motor function in C. elegans models of Parkinson's disease. Using fluorescence imaging and motion tracking, the research quantifies protein degradation and locomotion improvements, revealing a significant reduction in alpha-synuclein aggregates and an increase in worm mobility post-treatment. These findings suggest that electric fields could be a promising non-invasive approach for mitigating neurodegenerative disease symptoms.
   keywords:
       - Alpha-synuclein
-      - aggregation
-      - velocity
+      - Aggregation
       - C.Elegans
-      - degradation
+      - Degradation
       - Parkinson's Disease
-      - Fluorescent
   subject: Biology
   authors:
     - name: Adrija Sarkar
