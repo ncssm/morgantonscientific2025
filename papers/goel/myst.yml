@@ -4,7 +4,7 @@ extends:
 project:
   id: morganton-2025-goel
   title: Modeling Shifts in Reversible Chemical Reactions and Economic Markets
-  description: Both the economy and chemical reactions can act as a system in equilibrium. This papers explores this interdisciplinary concept by modeling reversible reactions using both chemical equilibrium and economic models utilizing software such as Gaussian and Mathematica-based modeling. 
+  description: Both the economy and chemical reactions can act as a system in equilibrium. This papers explores this interdisciplinary concept by modeling reversible reactions using both chemical equilibrium and economic models utilizing software such as Gaussian and Mathematica-based modeling.
   keywords:
       - Le Chatelier's Principle
       - Reversible Reactions
@@ -18,15 +18,15 @@ project:
       email: goel25r@ncssm.edu
       affiliation: ncssm
       roles:
-      - Conceptualization
-      - Data curation
-      - Formal analysis
-      - Investigation
-      - Methodology
-      - Project Administration
-      - Validation
-      - Visualization
-      - Writing-original draft
+        - Conceptualization
+        - Data curation
+        - Formal analysis
+        - Investigation
+        - Methodology
+        - Project Administration
+        - Validation
+        - Visualization
+        - Writing-original draft
   abbreviations:
     K: Equilibrium Constant
     DFT: Density Functional Theory

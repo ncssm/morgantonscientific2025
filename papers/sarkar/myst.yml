@@ -18,13 +18,13 @@ project:
       email: sarkar25a@ncssm.edu
       affiliation: ncssm
       roles:
-      - Conceptualization
-      - Data curation
-      - Formal analysis
-      - Investigation
-      - Methodology
-      - Visualization
-      - Writing-original draft
+        - Conceptualization
+        - Data curation
+        - Formal analysis
+        - Investigation
+        - Methodology
+        - Visualization
+        - Writing-original draft
   abbreviations:
     PD: Parkinson's disease
     YFP: Yellow fluorescent protein

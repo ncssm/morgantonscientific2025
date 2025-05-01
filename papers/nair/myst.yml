@@ -3,13 +3,12 @@ extends:
   - ../morganton2025.yml
 project:
   id: morganton-2025-nair
-project:
   title: Designer Babies A Tale of Horrific Immoralities
-  description: The author delves deeply into the ethical aspects and risks of designer babies— an embryo whose genetic makeup is altered. 
+  description: The author delves deeply into the ethical aspects and risks of designer babies— an embryo whose genetic makeup is altered.
   keywords:
-      - Designer Babies
-      - Ethics of genome engineering CRISPR
-      - Human edited embryos
+    - Designer Babies
+    - Ethics of genome engineering CRISPR
+    - Human edited embryos
   subject: Biology
   authors:
     - name: Ganga Nair
@@ -17,11 +16,8 @@ project:
       email: nair26g@ncssm.edu
       affiliation: NCSSM
       roles:
-      - Writing original draft
+        - Writing original draft
   abbreviations:
     HIV: Human Immunodeficiency Virus
     CRISPR: Clustered Regularly Interspaced Short Palindromic Repeats
     CRISPR-Cas9: Clustered Regularly Interspaced Short Palindromic Repeats and CRISPR-associated protein 9
-
-
-

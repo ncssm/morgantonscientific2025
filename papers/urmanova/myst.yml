@@ -18,11 +18,11 @@ project:
       email: urmanova25l@ncssm.edu
       affiliation: NCSSM
       roles:
-      - Conceptualization
-      - Formal Analysis
-      - Investigation
-      - Data curation
-      - Visualization
+        - Conceptualization
+        - Formal Analysis
+        - Investigation
+        - Data curation
+        - Visualization
   abbreviations:
     PD: Parkinson's Disease
     C. elegans: Caenorhabditis elegans
@@ -41,8 +41,3 @@ project:
     IntDensity: integrated density
     RawIntDensity: raw integrated density
     CTCF: Corrected Total Cell Fluorescence
-
-
-
-
-    

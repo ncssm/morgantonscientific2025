@@ -3,9 +3,8 @@ extends:
   - ../morganton2025.yml
 project:
   id: morganton-2025-mikolajec
-project:
   title: Green synthesis of decomposing rubber; comparing processing using carboxymethyl cellulose and Ipomoea pes-caprae
-  description: In recent years effort has been made to innovate alternative sustainable options to classic materials. Rubber is one of those materials that poses a major problem worldwide as it fills landfills, infiltrates ecosystems, and poses a threat to wildlife. The author aims to develop a method of green synthesis of a latex natural rubber (LNR) material specific to the purpose of rubber band production with increased decomposability and a decreased negative impact on the ecosystem as well as minimized cost.  
+  description: In recent years effort has been made to innovate alternative sustainable options to classic materials. Rubber is one of those materials that poses a major problem worldwide as it fills landfills, infiltrates ecosystems, and poses a threat to wildlife. The author aims to develop a method of green synthesis of a latex natural rubber (LNR) material specific to the purpose of rubber band production with increased decomposability and a decreased negative impact on the ecosystem as well as minimized cost.
   keywords:
     - green chemistry
     - biodegradability
@@ -25,16 +24,16 @@ project:
       orcid: 0009-0000-2109-6425
       email: mikolajec25z@ncssm.edu
       affiliation: NCSSM
-      roles: 
-      - Conceptualization
-      - Data curation
-      - Formal analysis
-      - Investigation
-      - Methodology
-      - Project Administration
-      - Validation
-      - Visualization
-      - Writing-original draft
+      roles:
+        - Conceptualization
+        - Data curation
+        - Formal analysis
+        - Investigation
+        - Methodology
+        - Project Administration
+        - Validation
+        - Visualization
+        - Writing-original draft
   abbreviations:
     LNR: Latex natural rubber
     CSG: Corn starch and glycerol
