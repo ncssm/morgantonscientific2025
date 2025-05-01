@@ -20,7 +20,7 @@ The absorption, distribution, metabolism, and excretion (ADME) properties of the
 
 *Quantum Calculations*
 
-```{figure} images\Fig1 - All 8 molecules.png
+```{figure} images/Fig1 - All 8 molecules.png
 :name: Figure 1
 :align: center
 
@@ -72,7 +72,7 @@ The molecular orbital calculations were run using a 6-31G(d,p) basis set, and th
 
 {numref}`Table 1` shows the HOMO-LUMO gap values for each molecule. A decrease in the magnitude of the HOMO-LUMO gap indicates increased reactivity in the prodrug structure, which can relate to reduced stability. In addition to gap magnitude, the location of a molecule’s HOMO and LUMO can indicate reactive tendencies. Acyclovir and Torcitabine had essentially no change in their HOMO and LUMO’s location when converting into their prodrug forms, centering directly around the pyrimidine structures. By contrast, Ganciclovir and Cyclopropavir’s conversion to prodrug form causes their LUMO to move toward the valine ester, as can be seen in {numref}`Figure 2`. Valganciclovir’s possession of this property causes electrophilic attacks to the valine ester bond, which results in a favorable cleavage of the bond and release of the parent drug. Valcyclopropavir sharing this characteristic with Valganciclovir suggests it would also be able to cleave the valine group when in acidic environments.
 
-```{figure} images\Fig2-Valganciclovir HOMO-LUMO.png
+```{figure} images/Fig2-Valganciclovir HOMO-LUMO.png
 :name: Figure 2
 :align: center
 
@@ -81,7 +81,7 @@ Valgancyclovir’s HOMO (red/blue) and LUMO (yellow/green)
 
 *Electrostatic Potential Mapping* 
 
-```{figure} images\Fig3-Electrostatic Potential Map Figure.png
+```{figure} images/Fig3-Electrostatic Potential Map Figure.png
 :name: Figure 3
 :align: center
 
@@ -150,7 +150,7 @@ Finally, we conducted a docking study binding Valtorcitabine and Valcyclopropavi
 
 {numref}`Table 4` contains the binding affinities of prodrugs 5-8 to each binding receptor, expressed as pKi. Valacyclovir was the only molecule capable of effectively binding to the PepT2 transporter protein, with a pKi of 5.4. However, both Valcyclopropavir and Valtorcitabine exhibited favorable binding affinity to the PepT1 transporter at a similar magnitude to Valganciclovir. Valtorcitabine’s docking to PepT1 can be seen in {numref}`Figure 4`, where the valine promoiety’s constituents contribute significantly to the binding interaction. The results suggest that Valtorcitabine and Valcyclopropavir should have a similar ability to Valganciclovir to use the PepT1 active transport mechanism to enter the bloodstream. 
 
-```{figure} images\Fig4-Valtorcitabine ligand docking.png
+```{figure} images/Fig4-Valtorcitabine ligand docking.png
 :name: Figure 4
 :align: center
 
