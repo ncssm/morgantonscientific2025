@@ -5,6 +5,7 @@ abstract: |
 ---
 
 ## Introduction
+
 Mental health has become an increasingly prominent public health issue in the United States. Frequent poor mental health (FPMH), which the Centers for Disease Control and Prevention (CDC) defines as 14 or more days of poor mental health in the past month [@cdc_codebook_2023], affects a significant portion of the adult population, resulting in significant disturbances to an individual’s quality of life. Previous research has identified links between demographic factors and mental health outcomes [@miyakado-steger_using_2019], but there is little comprehensive analysis that incorporates behavioral risk factors and quality of life indicators for the broader patient population that is adults in the United States [@pierannunzi_systematic_2013]. This paper intends to fill this gap by implementing three categories (levels) of potential risk in relation to FPMH: demographic, behavioral, and quality of life. 
 
 A demographic factor is a widely accepted characteristic used to classify or analyze specific patient populations. Some common examples include age, gender, and income bracket. Analysis through this lens is useful because it provides a measure of the inherent societal imbalances (in relation to mental health) within the United States. However, these characteristics are relatively static in the short term. Results can guide targeted intervention but do not offer the patient a solution. As such, behavioral factors are also important.
