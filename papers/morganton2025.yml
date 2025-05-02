@@ -4,7 +4,7 @@ project:
   exports:
     - id: typst-export
       format: typst
-      template: ../../templates/ncssm
+      template: https://github.com/curvenote-templates/ncssm.git
       article: article.md
       output: article.pdf
   downloads:

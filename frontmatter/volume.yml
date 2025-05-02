@@ -28,4 +28,4 @@ project:
     volume: 1
     doi: ...
 site:
-  template: article-theme
+  template: https://github.com/myst-templates/article-theme.git
