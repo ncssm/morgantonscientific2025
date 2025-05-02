@@ -146,8 +146,10 @@ Percent Yield of TPA Per Sample Organized by Increasing Polyester Content
 ## Conclusions 
 High quality TPA was successfully recovered via alkaline hydrolysis from every blended textile sample tested, indicating alkaline hydrolysis could be a type of chemical recycling utilized commercially and applied to the closed-loop manufacturing model. The TPA recovered from all samples contained few to no impurities as revealed by FTIR spectroscopy, although the color of the recovered TPA varied slightly depending on the color of the fabric sample hydrolyzed. Of the three ways that TPA yield was estimated, TPA yields based on UV-Visible spectrophotometry provided accurate yield estimates and proved to be an efficient method for estimating the yield of TPA in a sample before it was precipitated. In future experimentation, finding the TPA yield via absorbance could be used alone to estimate the yield of TPA from hydrolysis. All 9 samples produced an average TPA yield over 60% of the theoretical yield, but identifying which characteristics of a fabric sample affect TPA yield as well as modifying the hydrolysis process to optimize TPA yield for any given sample are areas of further study. Moreover, testing whether the produced TPA can be polymerized into usable PET is a crucial next step to determining whether alkaline hydrolysis is a feasible and effective method for recycling blended textiles on an industrial scale.
 
-## Acknowledgements
++++ {"part": "Acknowledgements"}
 The North Carolina School of Science and Mathematics is acknowledged for providing funding, equipment, and lab space to complete this research. Furthermore, Dr. Tandy Grubbs is acknowledged for his mentorship and guidance during this project.
++++
+
 
 
 
