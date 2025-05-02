@@ -1,22 +1,8 @@
 ---
 title: Harvesting Energy with Affordable Piezoelectric Sensors for Low-Power Biosensors
-
-date: February 3, 2025
-authors:
-  - name: Ananya Sriram
-    email: sriram25a@ncssm.edu
-    affiliations:
-      - North Carolina School of Science and Mathematics, Morganton, North Carolina 
-
-keywords: Piezoelectric sensors; Energy harvesting; Biosensors; Capacitors; Wearable devices
-
-bibliography:
-  - sriram.bib
+abstract: |
+  Human body movement-powered technology is the future for biomedical devices. The increased demand for sustainable energy has prompted the exploration of piezoelectric sensors as energy harvesters. This study focuses on the feasibility of using affordable piezoelectric sensors to power low-power biosensors, aiming to reduce reliance on conventional batteries. The research focuses on designing and optimizing a piezoelectric energy harvesting system, examining the relationship between applied pressure and voltage output alongside various energy storage methods, including supercapacitors, rechargeable batteries, and traditional capacitors. The findings of this study contribute valuable insights into piezoelectric power storage, optimizing energy harvesting systems, and affordable piezo technology for devices like thermometers, pedometers, electrocardiograph systems, and more. This study helps pave the way for more efficient self-powered biosensor systems. 
 ---
-+++ {"part": "abstract"}
-Human body movement-powered technology is the future for biomedical devices. The increased demand for sustainable energy has prompted the exploration of piezoelectric sensors as energy harvesters. This study focuses on the feasibility of using affordable piezoelectric sensors to power low-power biosensors, aiming to reduce reliance on conventional batteries. The research focuses on designing and optimizing a piezoelectric energy harvesting system, examining the relationship between applied pressure and voltage output alongside various energy storage methods, including supercapacitors, rechargeable batteries, and traditional capacitors. The findings of this study contribute valuable insights into piezoelectric power storage, optimizing energy harvesting systems, and affordable piezo technology for devices like thermometers, pedometers, electrocardiograph systems, and more. This study helps pave the way for more efficient self-powered biosensor systems. 
-+++
-
 
 ## Introduction
 
