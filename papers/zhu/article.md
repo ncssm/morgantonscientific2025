@@ -1,24 +1,8 @@
 ---
-title: "Computationally Modeling Factors of Aging that Affect the Population of T-cells and B-cells of Humans Age 60 and Older "
-
-date: February 14, 2025
-
-authors:
-  - name: Felice Zhu
-    email: zhu26f@ncssm.edu
-    affiliations:
-      - North Carolina School of Science and Mathematics, Durham, North Carolina 
-
-keywords: T-cell and B-cell Computational Model; Stella Architect; Immune System Aging; T-cells and B-cells dynamics
-
-bibliography: 
- - Zhu_references.bib
-
+title: Computationally Modeling Factors of Aging that Affect the Population of T-cells and B-cells of Humans Age 60 and Older 
+abstract: |
+  The study of T-cell and B-cell population dynamics concerning the effects of aging presents significant challenges due to various factors. Individual variations in health conditions and the complex interrelations within the immune system can lead to diverse outcomes. To address these complexities, we implemented a systematic approach to create computational models, which simulate the long-term population dynamics of T-cells and B-cells under conditions of aging. These models encompass essential physiological processes, including thymic output, bone marrow production, cellular activation, senescence, and natural cell death. Additionally, we generated graphical representations from the models to facilitate a clearer visualization of the observed trends. Age 60 was selected as the initial point for this analysis, as the effects of the aging immune system become increasingly evident at this stage, making previous facts by other studies more recognizable. This study underscores the potential of computational modeling capabilities in advancing our comprehension of the immune system, providing valuable insights for tracking and visualizing population dynamics. The modeling done here can be added upon to reach higher complexities to models that can accurately reflect what occurs in real life. 
 ---
-
-+++ {"part": "abstract"}
-The study of T-cell and B-cell population dynamics concerning the effects of aging presents significant challenges due to various factors. Individual variations in health conditions and the complex interrelations within the immune system can lead to diverse outcomes. To address these complexities, we implemented a systematic approach to create computational models, which simulate the long-term population dynamics of T-cells and B-cells under conditions of aging. These models encompass essential physiological processes, including thymic output, bone marrow production, cellular activation, senescence, and natural cell death. Additionally, we generated graphical representations from the models to facilitate a clearer visualization of the observed trends. Age 60 was selected as the initial point for this analysis, as the effects of the aging immune system become increasingly evident at this stage, making previous facts by other studies more recognizable. This study underscores the potential of computational modeling capabilities in advancing our comprehension of the immune system, providing valuable insights for tracking and visualizing population dynamics. The modeling done here can be added upon to reach higher complexities to models that can accurately reflect what occurs in real life. 
-+++ 
 
 ## Introduction
 Aging is an inevitable process characterized by a gradual decline in the human body’s functionality, including the immune system’s efficiency. While some mechanisms of aging are well-documented, such as thymic involution, the specific factors underlying these processes are not yet fully understood. As individuals age, the responsiveness of T-cells and B-cells to pathogens decreases, and there is also an increased risk of autoimmune complications. No table alterations in the immune system typically commence around the age of 60 [@weyand_aging_2016]. It is essential to clarify that both T-cells and B-cells are produced in the bone marrow; however, T-cells migrate to the thymus to undergo maturation, enabling them to effectively combat pathogens. This research emphasizes computational modeling to study the effects of aging on the behavior, dynamics, and interactions of T-cell and B-cell populations, which contribute to the overall decline of the immune system. 
