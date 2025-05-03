@@ -42,7 +42,7 @@ To ensure consistency in size and health, only silkworms weighing at least 0.9 g
 ###### Hemolymph Dilutions
 Six different 5th instar silkworms were selected: two from Group 1 (control diet), two from Group 2 (glucose diet), and two from Group 3 (glucose \+ probiotic diet). To collect hemolymph, a small hole was created under the first proleg, and gentle pressure was applied to allow hemolymph to flow out. Exactly 4 μL of hemolymph was collected from each worm using a micropipette.
 
-Each original 4 μL sample was then diluted in a 1":"5 ratio by mixing it with 16 μL of assay buffer. From this dilution, 4 μL was taken and mixed with another 16 μL of assay buffer to create the next dilution. Repeating this process allowed the creation of sequential dilutions at 1/5, 1/25, 1/125, and 1/625 for every hemolymph sample collected.
+Each original 4 μL sample was then diluted in a 1:5 ratio by mixing it with 16 μL of assay buffer. From this dilution, 4 μL was taken and mixed with another 16 μL of assay buffer to create the next dilution. Repeating this process allowed the creation of sequential dilutions at 1/5, 1/25, 1/125, and 1/625 for every hemolymph sample collected.
 
 ##### Glucose Quantitation Assay
 
