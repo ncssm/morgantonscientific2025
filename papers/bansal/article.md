@@ -1,30 +1,5 @@
 ---
 title: "The Psychological Profile of a Future Abuser"
-
-date: January 9, 2024
-
-authors:
-  - name: Navya Bansal
-    email: bansal26n@ncssm.edu
-    affiliations:
-      - North Carolina School of Science and Mathematics, Morganton, North Carolina 
-
-keywords: abuse, childhood maltreatment, emotional reactivity, relationships 
-
-abbreviations:
-  CSA: Childhood sexual assault
-  PTSD: Post-traumatic stress disorder
-  DV: Domestic violence
-  NV: Nonviolence 
-  CTS2: Conflict Tactics Scales
-  ATSS: Articulated Thoughts in Simulated Situations test
-  LLV: Low-level violence 
-  SV: Severely violent
-  EI: Emotional intelligence
-
-bibliography: 
- - refs.bib
-
 abstract: |
 This research paper explores factors contributing to the psychology that makes up an abuser by analyzing two comprehensive studies: “Intergenerational Effects of Childhood Maltreatment: A Systematic Review of the Parenting Practices of Adult Survivors of Childhood Abuse, Neglect, and Violence” by @greene_intergenerational_2020 and “Psychophysiological Profiles of Batterers: Autonomic Emotional Reactivity as It Predicts the Antisocial Spectrum of Behavior Among Intimate Partner Abusers” by @babcock_psychophysiological_2005. These studies outline different aspects of what goes into making an abusive profile, as well as risk factors such as childhood maltreatment, emotional reactivity, mental disorders, and heart rhythms correlating with antisocial behaviors. The results of these studies can be further translated into improving society, rehabilitation, and psychological facilities for both the abusers and the abused. By recognizing the implications of abuse, this paper outlines the urgency of the matter and emphasizes the significance of further research to better understand and mitigate abusive relationships.  
 
