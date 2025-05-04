@@ -42,10 +42,3 @@ project:
     CS: Cassava starch
 
   subject: Chemistry
-  venue: The Morganton Scientific
-  exports:
-    - format: typst
-      article: article.md
-      template: https://github.com/myst-templates/scipy.git
-site:
-  template: article-theme
