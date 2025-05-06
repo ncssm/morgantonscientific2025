@@ -158,7 +158,7 @@ The data collected during testing, displayed in @Figure_8, demonstrates that inc
   Comparison of mass loss between LNR samples processed with a higher and a lower concentration of CMC
 :::
 
-:::{figure} Mikolajec_images/Lewis Structure.avif
+:::{figure} Mikolajec_images/Lewis Structure.png
 :name: Figure_9
 :alt: n/a
 :width: 500px
