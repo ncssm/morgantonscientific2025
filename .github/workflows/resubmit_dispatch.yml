@@ -3,8 +3,8 @@ on: workflow_dispatch
 permissions:
   contents: write
 jobs:
-  publish:
-    uses: curvenote/actions/.github/workflows/submit.yml@PR40
+  submit:
+    uses: curvenote/actions/.github/workflows/submit.yml@v1
     with:
       id-pattern-regex: '^morganton-2025-(?:[a-zA-Z0-9-_]{2,15})$'
       venue: ncssm-mor
