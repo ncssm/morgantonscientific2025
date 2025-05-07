@@ -211,7 +211,7 @@ Absorbance and Glucose Concentration Data for the 1/6250 dilution samples incuba
 
 Below are the raw data from all three time intervals, which served as the basis for data processing and the calculation of absorbance and glucose concentrations:
 
-:::{figure}Gottumukkala_images/3 samples.png
+:::{figure}Gottumukkala_images/3_Samples.png
 :name: Figure_16
 :alt: n/a
 :width: 500px
