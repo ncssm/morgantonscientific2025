@@ -7,20 +7,10 @@ project:
   description: Type 2 diabetes mellitus (T2D) continues to rise globally, highlighting an urgent need for effective and accessible interventions. The author uses Bombyx mori silkworms as a novel, cost-effective model to evaluate the impact of lactic acid fermented foods on hyperglycemia and create a physiologically relevant model for T2D.
   keywords:
     - Type 2 Diabetes Mellitus (T2D)
-    - Lactic Acid Fermented Foods
-    - Probiotics
-    - Lactic Acid Bacteria (LAB)
-    - Bombyx mori (Silkworms)
+    - Lactic Acid 
     - Hyperglycemia
-    - Insulin Sensitivity
-    - Glucose Metabolism
-    - Fermented Foods
-    - Glycemic Control
-    - Diabetes Models
-    - Dietary Supplements
-    - Microbial Interventions
-    - Probiotic Strains
-    - Silkworm Model
+    - Glucose 
+    - Silkworms
   authors:
     - name: Vivek Gottumukkala
       orcid: 0009-0008-1767-5377
