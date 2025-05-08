@@ -7,7 +7,7 @@ permissions:
   contents: read
   pull-requests: write
 jobs:
-  publish:
+  preview-papers:
     uses: curvenote/actions/.github/workflows/draft.yml@v1
     with:
       id-pattern-regex: '^morganton-2025-(?:[a-zA-Z0-9-_]{2,15})$'
@@ -15,6 +15,18 @@ jobs:
       collection: '2025'
       kind: original
       path: papers/*
+      label: draft
+    secrets:
+      CURVENOTE: ${{ secrets.CURVENOTE_TOKEN }}
+      GITHUB: ${{ secrets.GITHUB_TOKEN }}
+  preview-interviews:
+    uses: curvenote/actions/.github/workflows/draft.yml@v1
+    with:
+      id-pattern-regex: '^morganton-2025-(?:[a-zA-Z0-9-_]{2,15})$'
+      venue: ncssm-mor
+      collection: '2025'
+      kind: interview
+      path: interviews/*
       label: draft
     secrets:
       CURVENOTE: ${{ secrets.CURVENOTE_TOKEN }}

@@ -1,0 +1,23 @@
+version: 1
+extends:
+  - ../morganton2025.yml
+project:
+  id: morganton-2025-moore
+  title: An Interview with Dr. Kathryn Moore (MD) from the Duke Neurology Department on Clinical Neuroscience and Research
+  description: On April 1st, Dr. Moore from the Duke Neurology Department met with authors of the Morganton Scientific. Three of our authors asked their clinicial neuroscience questions and discussed the current state of the field as well as their own projects.
+  keywords:
+    - Interview
+    - Clinical neurology
+    - Neurodegenerative diseases
+    - Deep brain stimulation
+    - Hospital neurology
+    - Healthcare
+    - Parkinsons
+    - Dystonia
+    - Neurologist
+    - Motor Disorders
+  subject: Interview
+  abbreviations:
+    DBS: Deep brain stimulation
+    EEG: Electroencephalogram
+    MD: Medical Doctor
