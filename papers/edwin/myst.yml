@@ -1,6 +1,6 @@
 version: 1
 extends:
-  - ../morganton2025.yml
+  - ../../morganton2025.yml
 project:
   id: morganton-2025-edwin
   title: Exploring the Use of Immunotherapy Techniques in Lymphocytic Leukemia

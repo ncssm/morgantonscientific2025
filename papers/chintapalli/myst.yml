@@ -1,6 +1,6 @@
 version: 1
 extends:
-  - ../morganton2025.yml
+  - ../../morganton2025.yml
 project:
   id: morganton-2025-chintapalli
   title: Risk Factors of Frequent Poor Mental Health Days Among Adults in the United States

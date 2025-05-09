@@ -1,6 +1,6 @@
 version: 1
 extends:
-  - ../morganton2025.yml
+  - ../../morganton2025.yml
 project:
   id: morganton-2025-zhu
   title: Computationally Modeling Factors of Aging that Affect the Population of T-cells and B-cells of Humans Age 60 and Older

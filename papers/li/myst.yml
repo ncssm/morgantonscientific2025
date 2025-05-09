@@ -1,6 +1,6 @@
 version: 1
 extends:
-  - ../morganton2025.yml
+  - ../../morganton2025.yml
 project:
   id: morganton-2025-li
   title: Binding Affinity and Selectivity of Peptide Ligands for G-Protein-Coupled Receptors
@@ -16,18 +16,18 @@ project:
       email: li25lily@ncssm.edu
       orcid: 0009-0002-2282-1005
       roles:
-      - Conceptualization
-      - Data curation
-      - Formal analysis
-      - Investigation
-      - Methodology
-      - Project Administration
-      - Resources
-      - Supervision
-      - Validation
-      - Visualization
-      - Writing - Original Draft
-      - Writing - Review & Editing
+        - Conceptualization
+        - Data curation
+        - Formal analysis
+        - Investigation
+        - Methodology
+        - Project Administration
+        - Resources
+        - Supervision
+        - Validation
+        - Visualization
+        - Writing - Original Draft
+        - Writing - Review & Editing
   abbreviations:
     NCSSM: North Carolina School of Science and Mathematics
     GPCR: G-Protein-Coupled Receptor
