@@ -10,4 +10,4 @@ project:
   downloads:
     - title: Download PDF
       id: typst-export
-extends: ../frontmatter/volume.yml
+extends: ./frontmatter/volume.yml
