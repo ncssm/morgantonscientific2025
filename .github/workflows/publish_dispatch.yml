@@ -3,7 +3,7 @@ on: workflow_dispatch
 permissions:
   contents: write
 jobs:
-  publish:
+  publish-papers:
     uses: curvenote/actions/.github/workflows/submit.yml@v1
     with:
       id-pattern-regex: '^morganton-2025-(?:[a-zA-Z0-9-_]{2,15})$'
@@ -11,6 +11,19 @@ jobs:
       collection: '2025'
       kind: original
       path: papers/*
+      publish: true
+      include-unchanged: true
+    secrets:
+      CURVENOTE: ${{ secrets.CURVENOTE_TOKEN }}
+      GITHUB: ${{ secrets.GITHUB_TOKEN }}
+  publish-papers:
+    uses: curvenote/actions/.github/workflows/submit.yml@v1
+    with:
+      id-pattern-regex: '^morganton-2025-(?:[a-zA-Z0-9-_]{2,15})$'
+      venue: ncssm-mor
+      collection: '2025'
+      kind: interview
+      path: interviews/*
       publish: true
       include-unchanged: true
     secrets:
