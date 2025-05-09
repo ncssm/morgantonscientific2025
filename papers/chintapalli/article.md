@@ -336,4 +336,4 @@ Finally, the only other reference to mental health in the 2022 BRFSS questionnai
 A future direction for this project is to run another analysis in which existence of depression is the outcome variable and compare the difference in results. This illuminates the disparity among which patients can obtain a diagnosis of depression out of those who experience FPMH, guiding future supplemental mental health support.
 
 ## Data Availability Statement
-The deidentified data and code that support the findings of this study are openly available in the following GitHub repository: https://github.ncssm.edu/chintapalli25a/BRFSS_study.git 
+The deidentified data and code that support the findings of this study are openly available in the following GitHub repository: https://github.com/anilchintapalli/BRFSS_study.git 
