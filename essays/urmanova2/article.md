@@ -1,27 +1,6 @@
 ---
 title: "Rewiring Eating Disorder Recovery: Neuroethical Implications of tDCS in ED Treatment"
-
 date: December 9, 2024
-
-authors:
-  - name: Leyla Urmanova
-    email: urmanova25l@ncssm.edu
-    affiliations:
-      - North Carolina School of Science and Mathematics, Morganton, North Carolina 
-
-abbreviations:
-  ED: Eating disorders
-  BED: Binge-eating disorder
-  AN: Anorexia nervosa
-  BN: Bulimia nervosa
-  DBS: Deep brain stimulation
-  VNS: Vagus nerve stimulation
-  tDCS: Transcranial direct current stimulation
-  TMS: Transcranial magnetic stimulation
-
-bibliography: 
- - Urmanova_references.bib
-
 ---
 
 The term “fatal illness” can immediately strike fear. When we hear it, a few diseases often come to mind– cancer, heart disease, stroke, Alzheimer’s, depression, and more. However, we often overlook an illness that can devastate both the mind and body in a myriad of ways: eating disorders. 

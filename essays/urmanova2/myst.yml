@@ -41,3 +41,12 @@ project:
     tDCS: Transcranial direct current stimulation
     TMS: Transcranial magnetic stimulation
   subject: Biology
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - noauthor_report:_2024
+        - noauthor_eating_nodate
+        - noauthor_eating_nodate-1
+        - noauthor_vagus_2018
+        - noauthor_new_nodate

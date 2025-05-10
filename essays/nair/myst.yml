@@ -21,3 +21,12 @@ project:
     HIV: Human Immunodeficiency Virus
     CRISPR: Clustered Regularly Interspaced Short Palindromic Repeats
     CRISPR-Cas9: Clustered Regularly Interspaced Short Palindromic Repeats and CRISPR-associated protein 9
+  error_rules:
+    - rule: doi-exists
+      severity: ignore
+      keys:
+        - petrieflomcenter
+        - theguardian
+        - pewresearchcenter
+        - scienceinsider
+        - mittech
