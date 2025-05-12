@@ -4,7 +4,7 @@ extends:
 project:
   id: morganton-2025-edwin
   title: Exploring the Use of Immunotherapy Techniques in Lymphocytic Leukemia
-  # description: awaiting description
+  description: A literature review on the impact of Immunotherapy Techniques in Lymphocytic Leukemia. This paper dives into differing immunotherapy techniques from other scientific articles and studies worldwide, compiling them to measure their efficacy. This study investigates drugs like Blinatumomab and CART19 therapies present in the research.
   keywords:
     - Lymphocytic Leukemia
     - Immunotherapy
