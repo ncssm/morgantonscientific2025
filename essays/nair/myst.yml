@@ -17,6 +17,8 @@ project:
       affiliation: NCSSM
       roles:
         - Writing original draft
+  first_page: 0
+  last_page: 0
   abbreviations:
     HIV: Human Immunodeficiency Virus
     CRISPR: Clustered Regularly Interspaced Short Palindromic Repeats

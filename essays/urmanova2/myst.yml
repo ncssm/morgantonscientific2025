@@ -31,6 +31,8 @@ project:
         - Validation
         - Visualization
         - Writing-original draft
+  first_page: 0
+  last_page: 0
   abbreviations:
     ED: Eating disorders
     BED: Binge-eating disorder

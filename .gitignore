@@ -2,3 +2,6 @@ _build
 .ipynb_checkpoints
 *.bak
 .DS_Store
+
+article.pdf
+morganton2025.pdf

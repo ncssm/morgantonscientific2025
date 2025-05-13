@@ -27,6 +27,8 @@ project:
         - Visualization
         - Writing - Original Draft
         - Writing - Review & Editing
+  first_page: 58
+  last_page: 69
   abbreviations:
     AC: Alternating current
     DC: Direct current

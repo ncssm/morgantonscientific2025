@@ -13,6 +13,8 @@ project:
     - Hospital neurology
     - Healthcare
   subject: Interview
+  first_page: 0
+  last_page: 0
   abbreviations:
     DBS: Deep brain stimulation
     EEG: Electroencephalogram

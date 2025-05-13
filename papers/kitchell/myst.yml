@@ -27,6 +27,8 @@ project:
         - Visualization
         - Writing - Original Draft
         - Writing - Review & Editing
+  first_page: 0
+  last_page: 0
   abbreviations:
     PET: Polyethylene terephthalate
     TPA: Terephthalic acid

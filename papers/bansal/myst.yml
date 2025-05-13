@@ -26,6 +26,8 @@ project:
         - Validation
         - Visualization
         - Writing-original draft
+  first_page: 10
+  last_page: 15
   abbreviations:
     CSA: Childhood sexual assault
     PTSD: Post-traumatic stress disorder
