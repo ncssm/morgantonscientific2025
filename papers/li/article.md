@@ -10,10 +10,10 @@ G-Protein-Coupled Receptors (GPCRs) represent a vital family of integral membran
 
 CXCR4 is widely expressed on the surface of various cells and is primarily activated by its natural ligand, CXCL12 (also known as stromal-derived factor-1 or SDF-1). The CXCR4-CXCL12 signaling axis sets up fundamental physiological processes, such as hematopoiesis, immune surveillance, and embryonic development. However, the dysregulation of this axis contributes to cancer metastasis, which accounts for the high mortality rates related to the disease [@zlotnik_homeostatic_2011]. CXCR4 allows for tumor cell migration to organs outside of their native sites, while activation encourages angiogenesis, immune avoidance, and anti-apoptotic properties to enhance tumor development. Characteristics include making CXCR4 a target of interest in therapeutic intervention, particularly for metastatic cancers. Among new treatment methods, peptide-based ligands have gained attention for their specific advantages over traditional small molecules. Peptides show high receptor specificity, reduced off-target effects, improved tissue penetration, and lower immunogenicity, although challenges remain in achieving optimal binding affinity and selectivity [@otvos_current_2014].
 
-The CXCL12 signaling network primarily operates through two receptors: CXCR4 and CXCR7, each with distinct functional roles. CXCR4 triggers G-protein-coupled pathways, activating downstream effectors such as phosphatidylinositide 3-kinase (PI3K), protein kinase B (AKT), and mitogen-activated protein kinase (MAPK). These pathways are critical for regulating cell survival, proliferation, and migration ({numref}`Figure 1`). In contrast, CXCR7 signals mainly via β-arrestin-mediated pathways, which influence receptor internalization, recycling, and cellular responses such as adhesion and migration [@rajagopal_-arrestin-_2010]. Interestingly, CXCR4 and CXCR7 can form heterodimers, modulating their signaling outputs and affecting the fate of CXCL12. The interaction dynamics of CXCR4 with other ligands, such as macrophage migration inhibitory factor (MIF), further underscore its functional versatility.
+The CXCL12 signaling network primarily operates through two receptors: CXCR4 and CXCR7, each with distinct functional roles. CXCR4 triggers G-protein-coupled pathways, activating downstream effectors such as phosphatidylinositide 3-kinase (PI3K), protein kinase B (AKT), and mitogen-activated protein kinase (MAPK). These pathways are critical for regulating cell survival, proliferation, and migration ({numref}`Figure_1`). In contrast, CXCR7 signals mainly via β-arrestin-mediated pathways, which influence receptor internalization, recycling, and cellular responses such as adhesion and migration [@rajagopal_-arrestin-_2010]. Interestingly, CXCR4 and CXCR7 can form heterodimers, modulating their signaling outputs and affecting the fate of CXCL12. The interaction dynamics of CXCR4 with other ligands, such as macrophage migration inhibitory factor (MIF), further underscore its functional versatility.
 
 ```{figure} images/Figure 1.png
-:name: Figure 1
+:name: Figure_1
 :align: center
 
 The CXCL12 signaling network. From the network, the simulation of CXCR4 triggers G-protein-coupled signaling.
@@ -31,12 +31,12 @@ This integrated approach is expected to provide a comprehensive understanding of
 
 This study explored the binding interactions between CXCR4 chemokine receptor and its ligand, CXCL12, investigating its selectivity with respect to CXCR3 through a systematic computational approach. Combining receptor and ligand preparation, molecular docking, and interaction analyses, through this study, the aim is to identify the most promising binding poses and their biological validation. This section details the methodology and tools used throughout the research.
 
-The receptor of choice for this study was the CXCR4 chemokine receptor, the PDB ID is 3OE6. This receptor was selected due to its high-resolution crystal structure at 3.20 Å, providing a reliable framework for the analysis of interactions with CXCL12. The receptor structure was prepared using PyMOL (Schrödinger, LLC) by downloading the 3OE6.pdb file from the RCSB Protein Data Bank. After loading the structure into PyMOL, the non-essential components such as water molecules and co-crystallized ligands were removed using remove solvent and remove organic ({numref}`Figure 2`). This will ensure a clean environment around the receptor to be used for docking.
+The receptor of choice for this study was the CXCR4 chemokine receptor, the PDB ID is 3OE6. This receptor was selected due to its high-resolution crystal structure at 3.20 Å, providing a reliable framework for the analysis of interactions with CXCL12. The receptor structure was prepared using PyMOL (Schrödinger, LLC) by downloading the 3OE6.pdb file from the RCSB Protein Data Bank. After loading the structure into PyMOL, the non-essential components such as water molecules and co-crystallized ligands were removed using remove solvent and remove organic ({numref}`Figure_2`). This will ensure a clean environment around the receptor to be used for docking.
 
 Hydrogen atoms were added to the receptor structure using the h-add command to facilitate appropriate bonding interactions. The protonation states of the receptor were then checked and adjusted with PDB2PQR to match physiological conditions at pH 7.4. Following a visual inspection to ensure the integrity of the binding pocket structure, the processed receptor was saved as receptor-prepared.pdb for subsequent docking simulations.
 
 ```{figure} images/Figure 2.png
-:name: Figure 2
+:name: Figure_2
 :align: center
 
 3OE6 PyMOL Structure Visualization
@@ -45,7 +45,7 @@ Hydrogen atoms were added to the receptor structure using the h-add command to f
 Ligand preparation focused on CXCL12, a peptide optimized to include only its first 17 residues, CXCL12, 1-17, with the emphasis of maintaining the active binding region. The peptide was modeled and minimized using Avogadro 2 for proper geometry and generation of the SMILES representation of input for docking. The final structure was saved in PDB format, as requested for docking.
 
 ```{figure} images/Figure 3.png
-:name: Figure 3
+:name: Figure_3
 :align: center
 
 Optimized CXCL12 using Avogadro 2 Visualization
@@ -69,7 +69,6 @@ The docking results of CXCR4 showed some clusters of binding poses with variable
 
 Cluster 0, though slightly less favorable regarding binding affinity (SwissParam Score: -13.2294), showed the lowest AC Score of 66.855750, which indicates strong atomic-level interactions ({numref}`Table_1`). The binding poses of Cluster 0 showed a different orientation of CXCL12 inside the pocket, with key interactions involving residues such as Arg167 and His281. These are implicated in the stabilization of the hydrophobic core of the ligand, further underlining the relevance of the cluster. Although having a slightly higher SwissParam Score, Cluster 0 is still significant due to its unique interaction profile, which may be important for alternate binding modes under physiological conditions.
 
-
 :::{table} Cluster number, AC Score, and SwissParam Score for the CXCR4 and CXCL12 interaction docking
 :label: Table_1
 :align: center
@@ -89,16 +88,16 @@ Cluster 0, though slightly less favorable regarding binding affinity (SwissParam
 :::
 
 
-From the analysis of interaction patterns, Cluster 6 showed a higher number of hydrogen bonds and hydrophobic contacts than Cluster 0. For example, five hydrogen bonds were observed in Cluster 6, while three were seen in Cluster 0. This indicates that the binding pose of Cluster 6 is more stable. Moreover, in Cluster 6, hydrophobic interactions were highly focused around aromatic residues like Trp94 and Phe292, contributing to a more stable hydrophobic environment for CXCL12. These indicated that Cluster 6 represents an optimal binding configuration since the appropriate balance of polar and non-polar interactions enhances its affinity. Changes in AC Score and SwissParam Score for the different cluster numbers were graphed, showing cluster number 0 has the lowest AC score, and Cluster 6 has the lowest SwissParam Score ({numref}`Figure 4`).
+From the analysis of interaction patterns, Cluster 6 showed a higher number of hydrogen bonds and hydrophobic contacts than Cluster 0. For example, five hydrogen bonds were observed in Cluster 6, while three were seen in Cluster 0. This indicates that the binding pose of Cluster 6 is more stable. Moreover, in Cluster 6, hydrophobic interactions were highly focused around aromatic residues like Trp94 and Phe292, contributing to a more stable hydrophobic environment for CXCL12. These indicated that Cluster 6 represents an optimal binding configuration since the appropriate balance of polar and non-polar interactions enhances its affinity. Changes in AC Score and SwissParam Score for the different cluster numbers were graphed, showing cluster number 0 has the lowest AC score, and Cluster 6 has the lowest SwissParam Score ({numref}`Figure_4`).
 
 ```{figure} images/Figure 5.png
-:name: Figure 4
+:name: Figure_4
 :align: center
 
 Graph showing the cluster number vs. AC Score and SwissParam Score for the CXCR4 and CXCL12 interaction docking.
 ```
 
-Ligand selectivity was further tested by the docking of CXCL12 with CXCR3, its related receptor. The results showed that CXCL12 binds less effectively to CXCR3, as evidenced by its higher (less negative) SwissParam Scores across all clusters. For example, Cluster 0 of CXCR3, which had the best binding affinity, still had a SwissParam Score of -10.6949, considerably less favorable than those for CXCR4. Similarly, for CXCR3, Cluster 0 showed a better binding profile compared to Cluster 3, as it had more favorable scores ({numref}`Table_2`). And from the graph showing the AC score and SwissParam Score for CXCR3, we can see a pattern where cluster 3 has the lowest AC Score and SwissParam Score ({numref}`Figure 5`).
+Ligand selectivity was further tested by the docking of CXCL12 with CXCR3, its related receptor. The results showed that CXCL12 binds less effectively to CXCR3, as evidenced by its higher (less negative) SwissParam Scores across all clusters. For example, Cluster 0 of CXCR3, which had the best binding affinity, still had a SwissParam Score of -10.6949, considerably less favorable than those for CXCR4. Similarly, for CXCR3, Cluster 0 showed a better binding profile compared to Cluster 3, as it had more favorable scores ({numref}`Table_2`). And from the graph showing the AC score and SwissParam Score for CXCR3, we can see a pattern where cluster 3 has the lowest AC Score and SwissParam Score ({numref}`Figure_5`).
 
 :::{table} Cluster number, AC Score, and SwissParam Score for the CXCR3 and CXCL12 interaction docking.
 :label: Table_2
@@ -120,7 +119,7 @@ Ligand selectivity was further tested by the docking of CXCL12 with CXCR3, its r
 :::
 
 ```{figure} images/Figure 7.png
-:name: Figure 5
+:name: Figure_5
 :align: center
 
 Graph showing the cluster number vs. AC Score and SwissParam Score for the CXCR3 and CXCL12 interaction docking.
@@ -128,10 +127,10 @@ Graph showing the cluster number vs. AC Score and SwissParam Score for the CXCR3
 
 A detailed comparison of the binding poses between CXCR4 and CXCR3 revealed notable differences. In CXCR3, the binding pocket lacked critical residues that contributed to CXCL12’s stabilization in CXCR4. For example, while Arg167 and Glu288 in CXCR4 formed strong hydrogen bonds with the ligand, the corresponding residues in CXCR3 were either missing or could not establish similar interactions. This difference in residue composition, along with the spatial configuration, underlines the selectivity of CXCL12 to CXCR4. Secondly, the hydrophobic contact in CXCR3 was less deep and involved mainly aliphatic residues. This resulted in lower binding stability.
 
-Visual inspection of the binding poses in Chimera gave further insight into the orientation and interaction pattern of the ligand. In the case of CXCR4, Cluster 6 showed a more compact ligand conformation, allowing for maximum interaction with the receptor pocket, while Cluster 0 adopted a slightly extended conformation. This indicates that CXCL12 may adopt multiple binding modes, depending on the conformational flexibility of the receptor. The binding poses obtained for CXCR3 seemed less well fitted, as the ligand was partially exposed outside the binding pocket of the receptor, indicating suboptimal geometry of interaction. In the case of CXCR4 and CXCL12 interaction, Cluster 6 was analyzed to show the hydrogen bonding ({numref}`Figure 6`).
+Visual inspection of the binding poses in Chimera gave further insight into the orientation and interaction pattern of the ligand. In the case of CXCR4, Cluster 6 showed a more compact ligand conformation, allowing for maximum interaction with the receptor pocket, while Cluster 0 adopted a slightly extended conformation. This indicates that CXCL12 may adopt multiple binding modes, depending on the conformational flexibility of the receptor. The binding poses obtained for CXCR3 seemed less well fitted, as the ligand was partially exposed outside the binding pocket of the receptor, indicating suboptimal geometry of interaction. In the case of CXCR4 and CXCL12 interaction, Cluster 6 was analyzed to show the hydrogen bonding ({numref}`Figure_6`).
 
 ```{figure} images/Figure 8.png
-:name: Figure 6
+:name: Figure_6
 :align: center
 
 Visualization of Cluster 6 in CXCR4 and CXCL12 hydrogen bonding interaction in Chimera.
