@@ -6,13 +6,13 @@ abstract: |
 
 ## Introduction
 
-Nucleoside-derived molecules are the most prominent group of antiviral drug candidates, chosen for their rare ability to mimic DNA material to attract viral enzymes [@markovic_bcs_2020]. However, most nucleoside derivatives are classified by the Biopharmaceutics Classification System (BCS) as class IV drugs. Class IV drugs exhibit numerous unfavorable characteristics (low solubility and permeability, high presystemic metabolism, efflux transport) that impede safe oral delivery with an effective bioavailability, limiting much of their historical clinical usage to intravenous administration in hospital settings. Due to the significant financial and health advantages of oral medications, more studies have emerged on the development of prodrugs, modified drugs made to achieve high oral bioavailability, of many existing Class IV drugs that require intravenous administration. Prodrugs are defined as biologically inactive drug molecules that undergo an enzymatic and/or chemical transformation in vivo to release an active parent drug [@vig_amino_2011]. Prodrugs are created by attaching a promoiety, a chemical group that enhances the molecule’s absorption, distribution, or stability. Prodrugs allow for oral distribution by enabling absorption into the bloodstream, then using enzymatic cleavage to remove the promoiety and release the parent drug, which can freely move through the bloodstream into the target site. Quantitative measures of a prodrug’s effectiveness come from its ability to improve the parent drug’s absorption proportion. They must also be highly stable to prevent unwanted metabolism but be able to rapidly convert into the parent drug after reaching the bloodstream. 
+Nucleoside-derived molecules are the most prominent group of antiviral drug candidates, chosen for their rare ability to mimic DNA material to attract viral enzymes [@markovic_bcs_2020]. However, most nucleoside derivatives are classified by the Biopharmaceutics Classification System (BCS) as class IV drugs. Class IV drugs exhibit numerous unfavorable characteristics (low solubility and permeability, high presystemic metabolism, efflux transport) that impede safe oral delivery with an effective bioavailability, limiting much of their historical clinical usage to intravenous administration in hospital settings. Due to the significant financial and health advantages of oral medications, more studies have emerged on the development of prodrugs, modified drugs made to achieve high oral bioavailability, of many existing Class IV drugs that require intravenous administration. Prodrugs are defined as biologically inactive drug molecules that undergo an enzymatic and/or chemical transformation in vivo to release an active parent drug [@vig_amino_2011]. Prodrugs are created by attaching a promoiety, a chemical group that enhances the molecule’s absorption, distribution, or stability. Prodrugs allow for oral distribution by enabling absorption into the bloodstream, then using enzymatic cleavage to remove the promoiety and release the parent drug, which can freely move through the bloodstream into the target site. Quantitative measures of a prodrug’s effectiveness come from its ability to improve the parent drug’s absorption proportion. They must also be highly stable to prevent unwanted metabolism but be able to rapidly convert into the parent drug after reaching the bloodstream.
 
-Nucleoside-derivatives are incredibly promising for prodrug studies due to their compatibility with promoieties and the need for orally-administered antivirals. This interest and compatibility have led to multiple prodrug forms of nucleoside-derived antivirals being clinically approved and incredibly successful in the pharmaceutical markets. Acyclovir and Ganciclovir, for example, were among the first successful antiviral drugs, and are highly potent against Herpes Simplex Virus and Cytomegalovirus, respectively. While both had essentially no function as oral drugs and had to be administered intravenously, the prodrug variants of both these molecules, Valacyclovir and Valganciclovir, have bioavailabilities greater than 50%, and receive millions of prescriptions annually due to their improved convenience and effectiveness. 
+Nucleoside-derivatives are incredibly promising for prodrug studies due to their compatibility with promoieties and the need for orally-administered antivirals. This interest and compatibility have led to multiple prodrug forms of nucleoside-derived antivirals being clinically approved and incredibly successful in the pharmaceutical markets. Acyclovir and Ganciclovir, for example, were among the first successful antiviral drugs, and are highly potent against Herpes Simplex Virus and Cytomegalovirus, respectively. While both had essentially no function as oral drugs and had to be administered intravenously, the prodrug variants of both these molecules, Valacyclovir and Valganciclovir, have bioavailabilities greater than 50%, and receive millions of prescriptions annually due to their improved convenience and effectiveness.
 
-The selection of a prodrug's promoiety is based on the parent drug’s needs and available functional groups. In this regard, amino acid promoieties have proven to be highly advantageous and compatible with the nucleoside derivative family of drugs, and Valacyclovir and Valganciclovir both utilize a valine promoiety. Research by [@beutner_valacyclovir:_1995] has revealed that, despite the improved yet still suboptimal ADME parameters, the addition of an amino acid promoiety allows the prodrugs to bind to the intestinal PepT1 and PepT2 receptors, which are used for active transport of oligopeptides from the intestines into the bloodstream. Through these L-valine ester prodrug designs, Beutner observed that Valacyclovir can achieve an approximate oral bioavailability of 54.5%, 3-5 times greater than its parent. Similarly, Valganciclovir has an oral bioavailability of 60%, as compared to Ganciclovir’s 5-8% ({cite}`pubchem_ganciclovir_nodate, umapathy_transport_2004`). 
+The selection of a prodrug's promoiety is based on the parent drug’s needs and available functional groups. In this regard, amino acid promoieties have proven to be highly advantageous and compatible with the nucleoside derivative family of drugs, and Valacyclovir and Valganciclovir both utilize a valine promoiety. Research by [@beutner_valacyclovir:_1995] has revealed that, despite the improved yet still suboptimal ADME parameters, the addition of an amino acid promoiety allows the prodrugs to bind to the intestinal PepT1 and PepT2 receptors, which are used for active transport of oligopeptides from the intestines into the bloodstream. Through these L-valine ester prodrug designs, Beutner observed that Valacyclovir can achieve an approximate oral bioavailability of 54.5%, 3-5 times greater than its parent. Similarly, Valganciclovir has an oral bioavailability of 60%, as compared to Ganciclovir’s 5-8% ({cite}`pubchem_ganciclovir_nodate, umapathy_transport_2004`).
 
-Cytomegalovirus (CMV) is among the most prevalent viral agents in the world. A leading cause of mortality in immunocompromised patients, CMV infects one in every 100-150 newborns, making it the most common congenital infection in most countries [@demmler-harrison_congenital_2009]. Hepatitis B Virus (HBV) is similarly prevalent, as approximately 296 million people are currently living with a chronic HBV infection, and 820,000 deaths annually are attributed to HBV-related complications [@ahmad_physics-driven_2020]. With that said, Torcitabine has been preclinically found to be a potent nucleoside inhibitor against HBV and Cyclopropavir possesses high antiviral properties against CMV ({cite}`ahmad_physics-driven_2020, wu_l-valine_2009`). Both are BCS class IV drugs that, despite their in vitro antiviral properties, weren’t studied extensively as oral drug candidates, largely due to their poor pharmacokinetic properties as an oral medication. However, both drugs showed promise for high compatibility with the valine ester promoiety, having hydroxyl groups that could be masked by forming an ester bond with valine that could be broken by esterase enzymes like Valacyclovir Hydrolase in the blood. 
+Cytomegalovirus (CMV) is among the most prevalent viral agents in the world. A leading cause of mortality in immunocompromised patients, CMV infects one in every 100-150 newborns, making it the most common congenital infection in most countries [@demmler-harrison_congenital_2009]. Hepatitis B Virus (HBV) is similarly prevalent, as approximately 296 million people are currently living with a chronic HBV infection, and 820,000 deaths annually are attributed to HBV-related complications [@ahmad_physics-driven_2020]. With that said, Torcitabine has been preclinically found to be a potent nucleoside inhibitor against HBV and Cyclopropavir possesses high antiviral properties against CMV ({cite}`ahmad_physics-driven_2020, wu_l-valine_2009`). Both are BCS class IV drugs that, despite their in vitro antiviral properties, weren’t studied extensively as oral drug candidates, largely due to their poor pharmacokinetic properties as an oral medication. However, both drugs showed promise for high compatibility with the valine ester promoiety, having hydroxyl groups that could be masked by forming an ester bond with valine that could be broken by esterase enzymes like Valacyclovir Hydrolase in the blood.
 
 The absorption, distribution, metabolism, and excretion (ADME) properties of the prodrug derivatives, including LogP, polar surface area, pKa, etc. to predict the stability and solubility of the molecule as it travels through the gastrointestinal tract. We also conducted a molecular docking study of the prodrugs to quantify their ability to bind to the external PepT1 and PepT2 proteins, which is the primary mechanism for transmitting valine-based prodrugs into the bloodstream. Quantum calculations were run through Gaussian 16 to predict the stability and reactivity of the prodrugs as they are absorbed in the gastrointestinal tract, which were assessed qualitatively using a variety of electronic and orbital properties including HOMO-LUMO gaps, electrostatic potential models, bond order calculations, and natural population analysis. This study aimed to determine the effectiveness of Valtorcitabine and Valcyclopropavir as prodrugs relative to successful prodrugs like Valacyclovir and Valganciclovir, using this data to inform further in vivo research as oral drug candidates for HBV and CMV.
 
@@ -21,13 +21,13 @@ The absorption, distribution, metabolism, and excretion (ADME) properties of the
 *Quantum Calculations*
 
 ```{figure} images/Fig1 - All 8 molecules.png
-:name: Figure 1
+:name: Figure_1
 :align: center
 
 Molecules 1-8, 4 parent drugs and 4 prodrugs
 ```
 
-Density functional theory (DFT) with the Lee-Yang-Parr correlation functional, denoted B3LYP, was used to execute the theoretical calculations [@parr_local_1979]. All quantum chemistry was calculated using the quantum chemical package Gaussian 16 [@g16]. Each calculation was run at the B3LYP/6-31G(d,p) level of theory to allow for timely calculation times given the number and size of the molecules included in this study (8 molecules each up to 26 heavy atoms). The North Carolina High School Computational Chemistry Server was used to organize and manage all jobs [@noauthor_north_nodate]. The starting geometries of all calculated molecules 1-8 in {numref}`Figure 1` were designed in WebMO and then optimized. Vibrational frequency calculations were then run to confirm that the geometry optimizations were at the lowest energy states. With the confirmed geometry optimizations, molecular orbital calculations and natural bond order calculations were run for each molecule. Bond order calculations were run for prodrug molecules 5-8. 
+Density functional theory (DFT) with the Lee-Yang-Parr correlation functional, denoted B3LYP, was used to execute the theoretical calculations [@parr_local_1979]. All quantum chemistry was calculated using the quantum chemical package Gaussian 16 [@g16]. Each calculation was run at the B3LYP/6-31G(d,p) level of theory to allow for timely calculation times given the number and size of the molecules included in this study (8 molecules each up to 26 heavy atoms). The North Carolina High School Computational Chemistry Server was used to organize and manage all jobs [@noauthor_north_nodate]. The starting geometries of all calculated molecules 1-8 in {numref}`Figure_1` were designed in WebMO and then optimized. Vibrational frequency calculations were then run to confirm that the geometry optimizations were at the lowest energy states. With the confirmed geometry optimizations, molecular orbital calculations and natural bond order calculations were run for each molecule. Bond order calculations were run for prodrug molecules 5-8. 
 
 *Molecular Orbital Calculation*
 
@@ -35,7 +35,7 @@ First, a molecular orbital calculation was run to ascertain the magnitude of eac
 
 *Natural Bond Orbital (NBO)*
 
-A natural bond orbital calculation was run to predict how the addition of a valine promoiety affected the molecule's ADME properties. Specifically, we used a natural population analysis to measure the extent to which the valine group masks the charges of the parent drug’s OH group. This reduction of charge was studied as it can help the molecule resist rapid excretion and increase absorption proportions. 
+A natural bond orbital calculation was run to predict how the addition of a valine promoiety affected the molecule's ADME properties. Specifically, we used a natural population analysis to measure the extent to which the valine group masks the charges of the parent drug’s OH group. This reduction of charge was studied as it can help the molecule resist rapid excretion and increase absorption proportions.
 
 *Bond Order Calculation*
 
@@ -58,7 +58,7 @@ The molecular orbital calculations were run using a 6-31G(d,p) basis set, and th
 
 
 :::{table} HOMO-LUMO gap values
-:label: Table 1
+:label: Table_1
 :align: center
 
 |Parent Drug|Parent Drug HOMO-LUMO Gap (eV)|Prodrug HOMO-LUMO Gap (eV)|Percent Reduction (%)|
@@ -70,30 +70,30 @@ The molecular orbital calculations were run using a 6-31G(d,p) basis set, and th
 
 :::
 
-{numref}`Table 1` shows the HOMO-LUMO gap values for each molecule. A decrease in the magnitude of the HOMO-LUMO gap indicates increased reactivity in the prodrug structure, which can relate to reduced stability. In addition to gap magnitude, the location of a molecule’s HOMO and LUMO can indicate reactive tendencies. Acyclovir and Torcitabine had essentially no change in their HOMO and LUMO’s location when converting into their prodrug forms, centering directly around the pyrimidine structures. By contrast, Ganciclovir and Cyclopropavir’s conversion to prodrug form causes their LUMO to move toward the valine ester, as can be seen in {numref}`Figure 2`. Valganciclovir’s possession of this property causes electrophilic attacks to the valine ester bond, which results in a favorable cleavage of the bond and release of the parent drug. Valcyclopropavir sharing this characteristic with Valganciclovir suggests it would also be able to cleave the valine group when in acidic environments.
+{numref}`Table_1` shows the HOMO-LUMO gap values for each molecule. A decrease in the magnitude of the HOMO-LUMO gap indicates increased reactivity in the prodrug structure, which can relate to reduced stability. In addition to gap magnitude, the location of a molecule’s HOMO and LUMO can indicate reactive tendencies. Acyclovir and Torcitabine had essentially no change in their HOMO and LUMO’s location when converting into their prodrug forms, centering directly around the pyrimidine structures. By contrast, Ganciclovir and Cyclopropavir’s conversion to prodrug form causes their LUMO to move toward the valine ester, as can be seen in {numref}`Figure_2`. Valganciclovir’s possession of this property causes electrophilic attacks to the valine ester bond, which results in a favorable cleavage of the bond and release of the parent drug. Valcyclopropavir sharing this characteristic with Valganciclovir suggests it would also be able to cleave the valine group when in acidic environments.
 
 ```{figure} images/Fig2-Valganciclovir HOMO-LUMO.png
-:name: Figure 2
+:name: Figure_2
 :align: center
 
 Valgancyclovir’s HOMO (red/blue) and LUMO (yellow/green)
 ```
 
-*Electrostatic Potential Mapping* 
+*Electrostatic Potential Mapping*
 
 ```{figure} images/Fig3-Electrostatic Potential Map Figure.png
-:name: Figure 3
+:name: Figure_3
 :align: center
 
 Electrostatic potential visual representation for prodrugs 5-8
 ```
 
-{numref}`Figure 3` shows the electronic charge density maps for prodrugs 5-8. The blue regions of the molecules represent areas with positive charge density, where hydrogens have high affinity for enzymatic binding and are more susceptible to electrophilic attacks. The valine promoiety’s amine group on Valacyclovir, Valganciclovir, and Valtorcitabine have a clear area of high positive charge density, which suggests that they would willingly bind to esterase enzymes. A strong localized negative charge, represented by red regions, around the ester carbonyl carbon is required for binding to the positively charged PepT1 transporter residue. Valtorcitabine having this property indicates it will be able to use this pathway effectively. By contrast, Valcyclopropavir exhibited minimal polarity in its valine charge distribution, likely due to the molecule’s inherently high steric bulk and electrostatic density. This lack of necessary polarity on the valine’s functional groups can prevent necessary protein binding.
+{numref}`Figure_3` shows the electronic charge density maps for prodrugs 5-8. The blue regions of the molecules represent areas with positive charge density, where hydrogens have high affinity for enzymatic binding and are more susceptible to electrophilic attacks. The valine promoiety’s amine group on Valacyclovir, Valganciclovir, and Valtorcitabine have a clear area of high positive charge density, which suggests that they would willingly bind to esterase enzymes. A strong localized negative charge, represented by red regions, around the ester carbonyl carbon is required for binding to the positively charged PepT1 transporter residue. Valtorcitabine having this property indicates it will be able to use this pathway effectively. By contrast, Valcyclopropavir exhibited minimal polarity in its valine charge distribution, likely due to the molecule’s inherently high steric bulk and electrostatic density. This lack of necessary polarity on the valine’s functional groups can prevent necessary protein binding.
 
 *ADME Property Calculations*
 
 :::{table} Relative charge-masking effect of valine group addition on parent drug hydroxyl group
-:label: Table 2
+:label: Table_2
 :align: center
 
 |Parent Drug|Parent Drug OH Charge|Prodrug OH Charge|Percent Charge Reduction (%)|
@@ -105,12 +105,12 @@ Electrostatic potential visual representation for prodrugs 5-8
 
 :::
 
-A large contributor to the significant polarity in the parent drugs is their common hanging hydroxyl group, and an effective prodrug would mask some of this polarity to improve pharmacokinetics. In all four prodrug derivatives, the valine group successfully masked 20-30% of the OH group's polarity ({numref}`Table 2`). The reduction of this charge should increase LogP value and reduce the effective topological polar surface area. However, due to the high polarity of the carbonyl & amine substituents, the valine group did not have this desired effect in a calculation of the entire molecule. 
+A large contributor to the significant polarity in the parent drugs is their common hanging hydroxyl group, and an effective prodrug would mask some of this polarity to improve pharmacokinetics. In all four prodrug derivatives, the valine group successfully masked 20-30% of the OH group's polarity ({numref}`Table_2`). The reduction of this charge should increase LogP value and reduce the effective topological polar surface area. However, due to the high polarity of the carbonyl & amine substituents, the valine group did not have this desired effect in a calculation of the entire molecule. 
 
 Many drug designers prefer their oral drug candidates to have a LogS in the range of -1 to -3 to optimize water solubility while allowing the drug to permeate intestinal lipid-based membranes. The high LogS of the experimental prodrugs does not hinder absorption due to its distinctive ability to use the PepT1 transport mechanism, but masking the OH group to reduce molecular polarity is still of interest (Table 3). Additionally, an increased number of flexible bonds in a drug improves their ability to conform and bind to key proteins, such as the PepT1 residue and esterase enzymes in this study.
 
 :::{table} Relative change of LogS (at pH 7.4), LogP, and flexibility from the addition of a valine group to parent drugs 1-4
-:label: Table 3
+:label: Table_3
 :align: center
 
 |Parent Drug|Percent Change LogS at pH 7.4|Percent Change LogP|Percent Change Flexibility|
@@ -122,11 +122,11 @@ Many drug designers prefer their oral drug candidates to have a LogS in the rang
 
 :::
 
-The addition of the valine promoiety had a drastic effect on LogP and molecular flexibility in the prodrug derivatives relative to their parent drug. As can be seen in {numref}`Table 3`, each parent drug experienced an average LogP change of approximately 60%, which correlates to the molecules exhibiting approximately 400% greater nonpolar character. These changes to LogP and LogS could alleviate some of the challenges the parent drug experiences in being absorbed. For example, the extreme polarity of the parent drug can trigger rapid excretion through urination before it can be absorbed into the intestines, and the change in LogP helps slightly with this challenge. Additionally, the change in flexibility should allow the prodrugs to more readily conform and bind to important proteins like the PepT1 protein residue or esterase enzymes.
+The addition of the valine promoiety had a drastic effect on LogP and molecular flexibility in the prodrug derivatives relative to their parent drug. As can be seen in {numref}`Table_3`, each parent drug experienced an average LogP change of approximately 60%, which correlates to the molecules exhibiting approximately 400% greater nonpolar character. These changes to LogP and LogS could alleviate some of the challenges the parent drug experiences in being absorbed. For example, the extreme polarity of the parent drug can trigger rapid excretion through urination before it can be absorbed into the intestines, and the change in LogP helps slightly with this challenge. Additionally, the change in flexibility should allow the prodrugs to more readily conform and bind to important proteins like the PepT1 protein residue or esterase enzymes.
 
 *Structural Stability Predictions*
 
-Valtorcitabine and Valcyclopropavir had similarly strong ester bonds to Valacyclovir and Valganciclovir, all having a bond order from 1.020-1.075. This indicates similar resistance to dissociating into the parent drug before the molecule enters the bloodstream. In vivo studies of Valacyclovir conducted by [@beutner_valacyclovir:_1995] revealed that it does not experience pre-absorption dissociation, and the results of the  bond order calculation suggests that this will be the case for Valtorcitabine and Valcyclopropavir as well. 
+Valtorcitabine and Valcyclopropavir had similarly strong ester bonds to Valacyclovir and Valganciclovir, all having a bond order from 1.020-1.075. This indicates similar resistance to dissociating into the parent drug before the molecule enters the bloodstream. In vivo studies of Valacyclovir conducted by [@beutner_valacyclovir:_1995] revealed that it does not experience pre-absorption dissociation, and the results of the  bond order calculation suggests that this will be the case for Valtorcitabine and Valcyclopropavir as well.
 
 The results of the pKa calculations were largely consistent with the control prodrugs, with the most basic pKa values being almost identical between prodrugs 5-8 at ~7-8. However, while Valacyclovir, Valganciclovir, and Valtorcitabine all had minimum pKa values of 7.5-8.5, Valcyclopropavir's most acidic pKa value was 3.9. This suggests that in an environment like the intestines, which have a pH of ~6-8, the molecule will completely deprotonate, decreasing its stability and increasing the chance it will undergo base-catalyzed hydrolysis as it passes through.
 
@@ -135,7 +135,7 @@ The results of the pKa calculations were largely consistent with the control pro
 Finally, we conducted a docking study binding Valtorcitabine and Valcyclopropavir  to three major protein systems that influence bioavailability: the PepT1/PepT2 solute transporter and the Valacyclovir hydrolase enzyme. Optimally, the experimental prodrugs would have a very high binding affinity to the PepT1/PepT2 proteins, allowing almost all of the drug to enter the bloodstream, but a moderate binding affinity to the Valacyclovir Hydrolase enzyme to allow for moderate release of the parent drug without rapid release from esterase enzymes in the gastrointestinal tract.
 
 :::{table} Prodrug binding affinities (pKi) to PepT1, PepT2, and Valacyclovir Hydrolase protein residues
-:label: Table 4
+:label: Table_4
 :align: center
 
 |Prodrug|PepT1 Binding Affinity|PepT2 Binding Affinity|Valacyclovir Hydrolase|
@@ -148,10 +148,10 @@ Finally, we conducted a docking study binding Valtorcitabine and Valcyclopropavi
 
 :::
 
-{numref}`Table 4` contains the binding affinities of prodrugs 5-8 to each binding receptor, expressed as pKi. Valacyclovir was the only molecule capable of effectively binding to the PepT2 transporter protein, with a pKi of 5.4. However, both Valcyclopropavir and Valtorcitabine exhibited favorable binding affinity to the PepT1 transporter at a similar magnitude to Valganciclovir. Valtorcitabine’s docking to PepT1 can be seen in {numref}`Figure 4`, where the valine promoiety’s constituents contribute significantly to the binding interaction. The results suggest that Valtorcitabine and Valcyclopropavir should have a similar ability to Valganciclovir to use the PepT1 active transport mechanism to enter the bloodstream. 
+{numref}`Table_4` contains the binding affinities of prodrugs 5-8 to each binding receptor, expressed as pKi. Valacyclovir was the only molecule capable of effectively binding to the PepT2 transporter protein, with a pKi of 5.4. However, both Valcyclopropavir and Valtorcitabine exhibited favorable binding affinity to the PepT1 transporter at a similar magnitude to Valganciclovir. Valtorcitabine’s docking to PepT1 can be seen in {numref}`Figure_4`, where the valine promoiety’s constituents contribute significantly to the binding interaction. The results suggest that Valtorcitabine and Valcyclopropavir should have a similar ability to Valganciclovir to use the PepT1 active transport mechanism to enter the bloodstream. 
 
 ```{figure} images/Fig4-Valtorcitabine ligand docking.png
-:name: Figure 4
+:name: Figure_4
 :align: center
 
 Valtorcitabine docked to PepT1 transporter protein
