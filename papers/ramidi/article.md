@@ -84,35 +84,35 @@ Sunset      | Magnifying Glass     | 1.765
 **Sunny**
 
 ```{figure} images/Voltage During Sunny.png
-:name: Figure 1
+:name: Figure_1
 :align: center
 
 Voltage output of solar panel at noon on a sunny day
 ```
 
-This graph ({numref}`Figure 1`) of the voltage output of each solar panel shows when they were tested at noon on a sunny day. This graph along with the statistics in the table above show that the voltage outputs in a sunny light condition were very similar. The Control and Mirror followed a similar trend while the Magnifying Glass had a very inconsistent trend. That is likely due to the many variables that could affect the output of the solar panel like the heat, because solar panels do not work well when hot, and a magnifying glass can concentrate light causing the heat to also rise which could be a possible explanation for the Magnifying Glass’s voltage output trend.
+This graph ({numref}`Figure_1`) of the voltage output of each solar panel shows when they were tested at noon on a sunny day. This graph along with the statistics in the table above show that the voltage outputs in a sunny light condition were very similar. The Control and Mirror followed a similar trend while the Magnifying Glass had a very inconsistent trend. That is likely due to the many variables that could affect the output of the solar panel like the heat, because solar panels do not work well when hot, and a magnifying glass can concentrate light causing the heat to also rise which could be a possible explanation for the Magnifying Glass’s voltage output trend.
 
 **Cloudy**
 
 ```{figure} images/Voltage During Cloudy.png
-:name: Figure 2
+:name: Figure_2
 :align: center
 
 Voltage output of solar panel at noon on a cloudy day
 ```
 
-This graph ({numref}`Figure 2`) of the voltage output of each solar panel shows when they were tested on a cloudy day. The voltages for all 3 light modifying conditions seem to have followed a similar wave like trend that was likely caused by a change in lighting as the clouds moved. The graph clearly shows how the solar panel which utilized the mirror had a greater voltage output for the entirety of the test while the control and the magnifying glass solar panels were very similar in voltage output with only a 0.022V difference in average. The mirror solar panel was able to output a voltage that was 0.096V greater than the control on average which is shown by the statistics in the table above.
+This graph ({numref}`Figure_2`) of the voltage output of each solar panel shows when they were tested on a cloudy day. The voltages for all 3 light modifying conditions seem to have followed a similar wave like trend that was likely caused by a change in lighting as the clouds moved. The graph clearly shows how the solar panel which utilized the mirror had a greater voltage output for the entirety of the test while the control and the magnifying glass solar panels were very similar in voltage output with only a 0.022V difference in average. The mirror solar panel was able to output a voltage that was 0.096V greater than the control on average which is shown by the statistics in the table above.
 
 **Sunset**
 
 ```{figure} images/Voltage During Sunset.png
-:name: Figure 3
+:name: Figure_3
 :align: center
 
 Voltage output of solar panel during sunset
 ```
 
-This graph ({numref}`Figure 3`) of the voltage output of each solar panel shows when they were tested during a sunset. The voltages for all 3 light modifying conditions seem to have followed the same declining trend which was likely caused by the sun going down as it set. This graph shows the mirror solar panel having the greatest voltage output followed by the magnifying glass solar panel, which is followed by the control solar panel that that is not experiencing any light modification. The mirror likely was able to produce the greatest voltage output as the mirror was situated behind the solar panel allowing the solar panel to get hit by the photons that reach the panel direction, in addition to the photons that are reflected onto the solar panel by the mirror. The statistics in the table on above show that the mirror solar panel was able to produce an output that was 0.072V greater than the output of the control on average.
+This graph ({numref}`Figure_3`) of the voltage output of each solar panel shows when they were tested during a sunset. The voltages for all 3 light modifying conditions seem to have followed the same declining trend which was likely caused by the sun going down as it set. This graph shows the mirror solar panel having the greatest voltage output followed by the magnifying glass solar panel, which is followed by the control solar panel that that is not experiencing any light modification. The mirror likely was able to produce the greatest voltage output as the mirror was situated behind the solar panel allowing the solar panel to get hit by the photons that reach the panel direction, in addition to the photons that are reflected onto the solar panel by the mirror. The statistics in the table on above show that the mirror solar panel was able to produce an output that was 0.072V greater than the output of the control on average.
 
 #### Data From Trials With The LED Circuit
 
@@ -209,34 +209,34 @@ Percent Change = $\frac{New - Original}{Original}*100$%
 ```
 
 ```{figure} images\Voltage vs. Sunlight Condition and Optical Device.svg
-:name: Figure 4
+:name: Figure_4
 :align: center
 
 ● = Control | ◆ = Mirror | ★ = Magnifying Glass
 
 ```
 
-This chart ({numref}`Figure 4`) displays the output voltage measured during each of the 27 trials where the red dot is the average of the respective 3 trials. This chart shows how the voltage output for all 3 optical devices was relatively the same in the sunny sunlight condition, the mirror and the magnifying glass are slightly greater than control for the sunset scenario, and the mirror and magnifying glass are much greater than the control for the cloudy sunlight condition. The difference between control and the optical devices were greatest during the cloudy sunlight condition with it being greater for the mirror.
+This chart ({numref}`Figure_4`) displays the output voltage measured during each of the 27 trials where the red dot is the average of the respective 3 trials. This chart shows how the voltage output for all 3 optical devices was relatively the same in the sunny sunlight condition, the mirror and the magnifying glass are slightly greater than control for the sunset scenario, and the mirror and magnifying glass are much greater than the control for the cloudy sunlight condition. The difference between control and the optical devices were greatest during the cloudy sunlight condition with it being greater for the mirror.
 
 ```{figure} images/Current vs. Sunlight Condition and Optical Device.svg
-:name: Figure 5
+:name: Figure_5
 :align: center
 
 ● = Control | ◆ = Mirror | ★ = Magnifying Glass
 
 ```
 
-This chart ({numref}`Figure 5`) displays the current generated during each of the 27 trials based on the calculations done with Ohm’s Law. The red points show the average current generated during the respective set of 3 trials. This chart is very similar to the voltage chart with the only difference being the scale because current & voltage are directly proportional. For that reason all the points seem to be in the same position relative to each other and similar observations and  conclusions to those made for the voltage graph can be made here.
+This chart ({numref}`Figure_5`) displays the current generated during each of the 27 trials based on the calculations done with Ohm’s Law. The red points show the average current generated during the respective set of 3 trials. This chart is very similar to the voltage chart with the only difference being the scale because current & voltage are directly proportional. For that reason all the points seem to be in the same position relative to each other and similar observations and  conclusions to those made for the voltage graph can be made here.
 
 ```{figure} images/Wattage vs. Sunlight Condition and Optical Device.svg
-:name: Figure 6
+:name: Figure_6
 :align: center
 
 ● = Control | ◆ = Mirror | ★ = Magnifying Glass
 
 ```
 
-This chart ({numref}`Figure 6`) displays the wattage output generated during each of the 27 trials. The red points show the average wattage generated during the respective 3 trials. This chart shows the data for the sunny condition trials and the sunset condition trials as being very clean and constant when compared to the cloudy condition trials which look like  a mess of random points. However, the mess of random points makes sense for the cloudy trials as the sunlight conditions are not too constant when it is cloudy resulting in there not being a consistent line of points. Still the chart shows that the mirror performed better than the control in all the sunlight conditions with the difference not being very significant in sunny conditions. The magnifying glass performed similarly as shown by the chart, but its difference in wattage output when compared to the control was not as much as the mirror.
+This chart ({numref}`Figure_6`) displays the wattage output generated during each of the 27 trials. The red points show the average wattage generated during the respective 3 trials. This chart shows the data for the sunny condition trials and the sunset condition trials as being very clean and constant when compared to the cloudy condition trials which look like  a mess of random points. However, the mess of random points makes sense for the cloudy trials as the sunlight conditions are not too constant when it is cloudy resulting in there not being a consistent line of points. Still the chart shows that the mirror performed better than the control in all the sunlight conditions with the difference not being very significant in sunny conditions. The magnifying glass performed similarly as shown by the chart, but its difference in wattage output when compared to the control was not as much as the mirror.
 
 ## Conclusion
 
@@ -259,21 +259,21 @@ With this energy optimization, the future implications are limitless, not only r
 ## Experiment Pictures
 
 ```{figure} images/Experiment During Sunny.jpeg
-:name: Figure 7
+:name: Figure_7
 :align: center
 
 Experiment on Sunny Day at Noon
 ```
 
 ```{figure} images/Experiment During Cloudy.jpeg
-:name: Figure 8
+:name: Figure_8
 :align: center
 
 Experiment on Cloudy Day
 ```
 
 ```{figure} images/Experiment During Sunset.jpeg
-:name: Figure 9
+:name: Figure_9
 :align: center
 
 Experiment at Sunset
