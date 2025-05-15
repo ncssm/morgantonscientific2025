@@ -87,7 +87,7 @@ As shown in @thrashing_graph_1, @thrashing_graph_2, and @thrashing_graph_3, the 
 and calculation of p-value.
 
 
-```{figure} images/Figure_3.jpg
+```{figure} images/Figure_3.png
 :label: thrashing_graph_1
 :align:  center
 :width: 500px
@@ -96,7 +96,7 @@ Probiotic treatment increased thrashing behavior in Day 3 worms. The solid red b
 
 ```
 
-```{figure} images/Figure_4.jpg
+```{figure} images/Figure_4.png
 :label: thrashing_graph_2
 :align:  center
 :width: 500px
@@ -105,7 +105,7 @@ Probiotic treatment continued to increase thrashing behavior in Day 6 worms. The
 
 ```
 
-```{figure} images/Figure_5.jpg
+```{figure} images/Figure_5.png
 :label: thrashing_graph_3
 :align:  center
 :width: 500px
@@ -118,7 +118,7 @@ Probiotic treatment remained consistent with increasing thrashing behavior in Da
 Based on the differences in CTCF levels, the treated nematodes exhibited a lower level of alpha-synuclein aggregation compared to the untreated nematodes, regardless of what PB concentration they received. This trend was recorded on Day 5 and continued on Day 7, where an even larger disparity in GFP fluorescence was observed. On Day 7, however, $10^6$ and $10^7$ PB treatment groups displayed the lowest CTCF levels. No statistically significant difference was observed in the CTCF levels across treatment groups. These conclusions were determined through implementing t-tests and calculating p-value. 
 
 
-```{figure} images/Figure_6.jpg
+```{figure} images/Figure_6.png
 :label: cfc_1
 :align:  center
 :width: 500px
@@ -127,7 +127,7 @@ Probiotic treatment presented lower levels of alpha-synuclein aggregation for Da
 
 ```
 
-```{figure} images/Figure_7.jpg
+```{figure} images/Figure_7.png
 :label: cfc_2
 :align:  center
 :width: 500px
