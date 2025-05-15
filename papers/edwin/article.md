@@ -10,17 +10,16 @@ Lymphocytic leukemia is a type of cancer that affects white blood cells, and the
 
 Like most cancers, lymphocytic Leukemia manifests more in the developed parts of the world, mainly in North America and Europe [@carballido_immunomodulatory_2012]. There are many underlying mutations to lymphocytic leukemia, such as the Philadelphia chromosome, a translocation between chromosomes 9 and 22; the BCR-ABL1 fusion gene, which causes cancerous cells to exhibit abnormal tyrosine kinase activity; TP53 mutations, which confer resistance to therapy; and NOTCH1 mutations, which enable cell proliferation and differentiation [@wang_preclinical_2021].
 
-Acute lymphocytic leukemia requires expedited treatment, often leading to a lower life expectancy, while individuals with chronic lymphocytic leukemia may live for decades with sporadic and controlled treatment [@eichhorst_initial_2016]. Treatments for lymphocytic leukemia include chemotherapy, radiation, immunotherapy, and stem cell transplantation [@porter_chimeric_2011]. The likelihood of developing chronic lymphocytic leukemia is about 0.57%, or 1 in every 175 people in the United States, with men having a slightly higher risk [@perez-carretero_evolving_2021]. For acute lymphocytic leukemia, the incidence is less than 1% of all cancer cases in the United States [@vincent_next-generation_2011]. Although acute lymphocytic leukemia primarily affects children, most deaths occur among adults, with 4 out of 5 deaths involving adult patients [@sharma_chronic_2019]. The purpose of this paper is to highlight what research is being done to cure these ailments and ultimately make these statistics much more powerful with a deeper emphasis on the clinical trials and their criteria. 
+Acute lymphocytic leukemia requires expedited treatment, often leading to a lower life expectancy, while individuals with chronic lymphocytic leukemia may live for decades with sporadic and controlled treatment [@eichhorst_initial_2016]. Treatments for lymphocytic leukemia include chemotherapy, radiation, immunotherapy, and stem cell transplantation [@porter_chimeric_2011]. The likelihood of developing chronic lymphocytic leukemia is about 0.57%, or 1 in every 175 people in the United States, with men having a slightly higher risk [@perez-carretero_evolving_2021]. For acute lymphocytic leukemia, the incidence is less than 1% of all cancer cases in the United States [@vincent_next-generation_2011]. Although acute lymphocytic leukemia primarily affects children, most deaths occur among adults, with 4 out of 5 deaths involving adult patients [@sharma_chronic_2019]. The purpose of this paper is to highlight what research is being done to cure these ailments and ultimately make these statistics much more powerful with a deeper emphasis on the clinical trials and their criteria.
 
 ## Immunology Methods to Prevent and Hinder Lymphocytic Leukemia
 
 ```{figure} images/Blinatumomab MOA2.PNG
-:label: Figure 1
+:label: Figure_1
 :align: center
 
 How Blinatumomab affects T-cells and apoptotic cancer cells
 ```
-
 
 Scientists use immune checkpoint inhibitors and chimeric antigen receptor (CAR) T-cell therapy to treat lymphocytic leukemia [@major_efficacy_2023]. Immune checkpoint inhibitors target pathways like PD-1/PD-L1 and CTLA-4 to enhance and utilize T-cell responses against leukemia cells [@carballido_immunomodulatory_2012]. CAR T-cell therapy involves genetically modifying the patient's T cells to recognize and destroy cancer cells [@porter_chimeric_2011].
 
@@ -34,7 +33,7 @@ The FDA has approved CAR T-cell therapy for treating B-cell acute lymphoblastic 
 
 ## Research and Studies on Immunology Treatments for Leukemia
 
-*Seoul Trial* 
+*Seoul Trial*
 
 There was a study in 2019 in Seoul, South Korea, for lymphocytic leukemia, particularly referencing the recurrence around the marrow. The drug Idarubicin was used for the reinduction stage with the drug, Blincyto used for the study. This study is in stage 2, meaning that there are human trials and with people more at risk for any more cancer progression. A criteria for the patients for age was they must be at least more than one years old and at most 22 years old. The patients could not have received Blinatumomab before this study either. The study focused on many exclusion factors: patients should have adequate renal function, could not have the Philadelphia chromosome, could not have any mixed phenotypes for leukemia, and could not have had HIV either. Patients would be tested with Blinatumomab,  and then the efficacy rate, disease-free survival rate, and death rate related to treatment would be tested. The patients would be tested for an average of 9 years. 
 
@@ -47,7 +46,7 @@ A recent Phase II clinical trial by Amgen Research (Munich) GmbH investigated th
 Another study in New England did a Phase 1 clinical trial that started with a patient diagnosed with chronic lymphocytic leukemia (CLL) in 1996. The patient had treatment started in 2002, which was Rituximab plus fludarabine treatment (Chemotherapy and Targeted Therapy Combination). The clinical treatment started in July of 2010. The purpose of the treatment was to test the safety and feasibility of CART19 in relapsed/refractory B-cell neoplasms. Autologous T-cells were genetically modified using a lentiviral vector to express CD19-specific CAR. Some of the inclusion criteria were that patients had to be of sound body and health, express previous treatment failure, have autologous T-Cell availability to harvest the patients T-Cells, have adequate organ function, and the patient must have signed informed consent. 
 
 ```{figure} images/nejmoa1103849_f1.jpg
-:label: Figure 2
+:label: Figure_2
 :align: center
 
 Panel A illustrates the lentiviral vector used to modify T cells for CART19 therapy, containing key functional elements for targeting CD19, while Panels B, C, and D show clinical data and imaging, including serum markers, bone marrow biopsies, and CT scans before and after treatment, highlighting tumor response and recovery.
