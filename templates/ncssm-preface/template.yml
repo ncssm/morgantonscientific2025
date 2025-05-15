@@ -30,5 +30,5 @@ parts:
     description: The forward to the journal volume
     required: true
 doc:
-  - id: biblio
+  - id: volume
     required: true

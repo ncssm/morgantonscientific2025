@@ -19,6 +19,8 @@ project:
       roles:
         - Conceptualization
         - Writing-original draft
+  first_page: 0
+  last_page: 0
   abbreviations:
     CAR: chimeric antigen receptor
     ALL: acute lymphoblastic leukemia

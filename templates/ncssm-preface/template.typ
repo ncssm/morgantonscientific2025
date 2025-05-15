@@ -1,4 +1,3 @@
-#import "myst.typ": *
 #set text(font: "Noto Sans", size: 10pt)
 
 #let spacer = text(fill: gray)[ #h(8pt) | #h(8pt)]
@@ -17,9 +16,9 @@
 #align(center)[
   #grid(
     columns: (1fr, 1fr, 1fr),
-    align(left, text(font: "Noto Serif", fill: white, size: 20pt)[2024]),
+    align(left, text(font: "Noto Serif", fill: white, size: 20pt)[2025]),
     [],
-    align(right, text(font: "Noto Serif", fill: white, size: 20pt)[Volume 1])
+    align(right, text(font: "Noto Serif", fill: white, size: 20pt)[Volume 2])
   )
   #v(2em)
   #text(size:85pt, fill: white, font: "Noto Serif")[MORGANTON] \
@@ -39,8 +38,8 @@
     width: 100%,
     stroke: (top: 1pt + gray),
     inset: (top: 8pt, right: 2pt),
-    [
-      Morganton Scientific | Volume 1 | 2023 - 2024
+    context [
+      Morganton Scientific | Volume 2 | 2024 - 2025
       #h(1fr)
       #counter(page).display()
     ]
@@ -58,7 +57,7 @@
   #v(0.3em)
   #text(size:10pt)[Journal of Student STEM Research]
   #v(0.5em)
-  #text(size:10pt, fill: black.lighten(40%), link("https://doi.org/[-doc.biblio.doi-]")[https://doi.org/[-doc.biblio.doi-]])
+  #text(size:10pt, fill: black.lighten(40%), link("https://doi.org/[-doc.volume.doi-]")[https://doi.org/[-doc.volume.doi-]])
   #v(5em)
   #text(size:8pt, fill: black.lighten(40%), [Cover image by #link("https://www.freepik.com/free-photo/dna-genetic-biotechnology-science-gray-neon-graphic_26679196.htm")[Freepik]])
 ]

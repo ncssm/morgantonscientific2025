@@ -25,6 +25,8 @@ project:
         - Validation
         - Visualization
         - Writing
+  first_page: 0
+  last_page: 0
   abbreviations:
     NCSSM: North Carolina School of Science and Mathematics
     DFT: Density functional theory

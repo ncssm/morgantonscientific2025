@@ -25,6 +25,8 @@ project:
         - Methodology
         - Visualization
         - Writing-original draft
+  first_page: 69
+  last_page: 81
   abbreviations:
     PD: Parkinson's disease
     YFP: Yellow fluorescent protein
