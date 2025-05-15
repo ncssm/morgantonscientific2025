@@ -137,7 +137,7 @@ Percent Yield of TPA Per Sample Organized by Increasing Sample Density
 ```
 
 ```{figure} images/Polyster_Content.png
-:name: Figure 9
+:name: Figure9
 :align: center
 
 Percent Yield of TPA Per Sample Organized by Increasing Polyester Content
@@ -149,7 +149,3 @@ High quality TPA was successfully recovered via alkaline hydrolysis from every b
 +++ {"part": "Acknowledgements"}
 The North Carolina School of Science and Mathematics is acknowledged for providing funding, equipment, and lab space to complete this research. Furthermore, Dr. Tandy Grubbs is acknowledged for his mentorship and guidance during this project.
 +++
-
-
-
-
