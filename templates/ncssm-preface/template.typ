@@ -8,7 +8,7 @@
   paper: "us-letter",
   margin: (x: 3em, y: 5em),
   background: [
-    #image("dna.png", width: 100%, height: 100%, fit: "cover")
+    #image("banner.jpg", width: 100%, height: 100%, fit: "cover")
   ],
   footer: text(fill: gray)[]
 )
@@ -24,7 +24,7 @@
   #text(size:85pt, fill: white, font: "Noto Serif")[MORGANTON] \
   #text(size:102pt, fill: white, font: "Noto Serif")[SCIENTIFIC]
   #v(43em)
-  #text(size:18pt, font: "Noto Serif")[JOURNAL OF STUDENT STEM RESEARCH AT THE \
+  #text(size:18pt, fill: white, font: "Noto Serif")[JOURNAL OF STUDENT STEM RESEARCH AT THE \
   NORTH CAROLINA SCHOOL OF SCIENCE AND MATHEMATICS]
 ]
 
@@ -59,14 +59,10 @@
   #v(0.5em)
   #text(size:10pt, fill: black.lighten(40%), link("https://doi.org/[-doc.volume.doi-]")[https://doi.org/[-doc.volume.doi-]])
   #v(5em)
-  #text(size:8pt, fill: black.lighten(40%), [Cover image by #link("https://www.freepik.com/free-photo/dna-genetic-biotechnology-science-gray-neon-graphic_26679196.htm")[Freepik]])
+  #text(size:8pt, fill: black.lighten(40%), [Cover image by Arjun Rao])
 ]
 
-#pagebreak()
-
 #show heading: set text(fill: rgb("#C18849"))
-
-[-parts.forward-]
 
 #pagebreak()
 = Table of Contents
