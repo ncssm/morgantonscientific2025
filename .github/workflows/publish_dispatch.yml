@@ -13,6 +13,7 @@ jobs:
       path: papers/*
       publish: true
       include-unchanged: true
+      debug: true
     secrets:
       CURVENOTE: ${{ secrets.CURVENOTE_TOKEN }}
       GITHUB: ${{ secrets.GITHUB_TOKEN }}
@@ -26,6 +27,7 @@ jobs:
       path: interviews/*
       publish: true
       include-unchanged: true
+      debug: true
     secrets:
       CURVENOTE: ${{ secrets.CURVENOTE_TOKEN }}
       GITHUB: ${{ secrets.GITHUB_TOKEN }}
@@ -39,6 +41,7 @@ jobs:
       path: essays/*
       publish: true
       include-unchanged: true
+      debug: true
     secrets:
       CURVENOTE: ${{ secrets.CURVENOTE_TOKEN }}
       GITHUB: ${{ secrets.GITHUB_TOKEN }}
