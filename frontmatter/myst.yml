@@ -2,6 +2,7 @@ version: 1
 project:
   id: morganton-2025-vol-2
   title: Morganton Scientific - Volume 2
+  banner: ../templates/ncssm-preface/banner.jpg
   description: |
     The Morganton Scientific showcases some of the most
     interesting and complex math- and science-centered
@@ -9,9 +10,9 @@ project:
     We are a public high school where talented students
     realize their potential and find their niche.
   authors:
-    - name: 
+    - name:
       affiliation: ncssm
-    - name: 
+    - name:
       affiliation: ncssm
   doi: ... # Matches Volume DOI
   downloads:
