@@ -23,6 +23,10 @@ In order to effectively model population dynamics, differential equations are pa
 
 This model will operate under the following assumptions: chronic inflammation is absent, no regenerative procedures have been conducted on the thymus or bone marrow, all types of activated cells are grouped into one active population,  all types of memory cells are grouped into one memory population, and the model initiates with no activated adaptive immune cells. Furthermore, there exists a relatively low quantity of naive cells, coupled with a presence of memory and senescent cells, as a result of a slightly compromised immune system, and the rates incorporated in the model will aid in reflecting these specified conditions. ChatGPT was used to help develop differential equations, sub-formulas (Fig. 1), and rate parameters that describe the population dynamics of different T-cell subsets. 
 
+```{raw:typst}
+#set text(size: 7pt)
+```
+
 ```{math}
 :label: Equation_1
 dT_{naive}(t) = p(t)-\alpha_{NS}(t)*T_{naive}(t)-r_{activation}(t)*T_{naive}(t)-\sigma*T_{naive}(t)
@@ -43,6 +47,10 @@ dT_{memory}(t) = \delta_{AM}*T_{activated}(t)-\sigma_{MS}*T_{memory}(t)-\sigma_{
 dT_{senescent}(t) = \alpha_{NS}*T_{naive}(t)+\alpha_{AS}*T_{activated}(t)+\alpha_{MS}*T_{memory}(t)-\sigma_{senescent}*T_{senescent}(t)
 ```
 
+```{raw:typst}
+#set text(size: 9pt)
+```
+
 Equation @Equation_1 represents the dynamics of naive T cells, while Equation @equation_2 represents the dynamics of activated T-cells. Additionally, Equation @equation_3 represents the population dynamics of memory T-cells, and Equation @equation_4 represents the dynamics of senescent T-cells. All rates are expressed in terms of years. ChatGPT offered reasonable rates for constructing the model, which reflects a moderately compromised immune system. Although the relationship is nonlinear and does not precisely adhere to an exponential form, exponential functions were selected as the most suitable approach for modeling these dynamics [@noauthor_chatgpt_nodate]. 
 
 :::{figure} Zhu_images/T-Cell SubformulasandVariables.png
@@ -56,6 +64,10 @@ Rates and sub-formulas of T-cell population
 :::
 
 Next, we tasked ChatGPT to help craft a set of equations that would reflect the B-cell population dynamics. It crafted similar equations to the T-cells and sub-formulas (Fig. 2) also followed the same structure; however, the rates differed from the T-cells to reflect the unique dynamics the B-cell population undergoes.
+
+```{raw:typst}
+#set text(size: 7pt)
+```
 
 ```{math}
 :label: Equation_5
@@ -75,6 +87,10 @@ dB_{memory}(t)=\delta_{AM}(t)*B_{activated}(t)-\alpha_{MS}*B_{memory}(t)-\sigma_
 ```{math}
 :label: Equation_8
 dB_{memory}(t)= \alpha_{NS}*B_{naive}(t)+\alpha_{AS}*B_{activated}(t)+\alpha_{MS}*B_{memory}(t)-\sigma_{Senescent}*B_{Senescent}(t)
+```
+
+```{raw:typst}
+#set text(size: 9pt)
 ```
 
 :::{figure} Zhu_images/B-Cell Subformulas and Variables.png

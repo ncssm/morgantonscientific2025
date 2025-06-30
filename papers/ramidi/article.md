@@ -64,10 +64,10 @@ Data Output Done by Vernier Graphical Analysis Voltage Probe, Graphical Analysis
 
 #### Data From The Test Without The Red LED Circuit
 
-```{table}
-:widths: auto
+```{table} Voltage for Time of Day and Solar Panel Type
 :name: solar-voltage-table
 :align: center
+
 Time of Day | Solar Panel Type     | Average Voltage (V)
 ------------|----------------------|---------------------
 Sunny       | Control              | 3.326
@@ -117,9 +117,9 @@ This graph ({numref}`Figure_3`) of the voltage output of each solar panel shows 
 #### Data From Trials With The LED Circuit
 
 ```{table} Voltage and Illuminance for Time of Day and Solar Panel Type
-:widths: auto
 :name: solar-voltage-illuminance-table
 :align: center
+
 Time of Day | Solar Panel Type     | Trial Number | Avg Voltage per Trial (V) | Illuminance (Lux)
 ------------|----------------------|--------------|----------------------------|--------------------
 Noon & Sunny | Control             | Trial 1      | 3.276                      | 119313
@@ -174,8 +174,27 @@ Percent Change = $\frac{New - Original}{Original}*100$%
 
 *Resistance is 330 Ohms due to the 330 Ohm Resistor
 
+```{raw:typst}
+#let tableStyle = (
+  map-cells: cell => {
+    if (cell.y == 0) {
+      return (..cell, content: strong(text(cell.content, 5pt)))
+    }
+    (..cell, content: text(cell.content, 5pt))
+  },
+  auto-vlines: false,
+  map-hlines: line => {
+    if (line.y == 0 or line.y == 1) {
+      line.stroke = gray + 1pt;
+    } else {
+      line.stroke = 0pt;
+    }
+    return line
+  },
+)
+```
+
 ```{table} Statistics Calculated from Trial Data
-:widths: auto
 :name: big-table
 :align: center
 
@@ -255,6 +274,10 @@ With the conclusion that light enhancing tools such as magnifying glasses and mi
 Moreover, those methods to optimize solar energy extraction can also enhance existing panels, increasing green energy output. This would provide more reliable energy for remote regions where grid connection is costly or impractical. Integrating these methods into smaller-scale applications, like portable solar devices or off-grid systems, could improve energy access in underserved areas and reduce environmental footprints.
 
 With this energy optimization, the future implications are limitless, not only restricted to just powering homes. From applying this technology in water desalination or agricultural systems to solar-powered air purifiers in urban environments, the possibility to make the world a more sustainable place to thrive is very much still alive. What started as a simple experiment using mirrors and magnifying glasses points to innovative new ways to harness solar energy and create lasting impact on the world.
+
+```{raw:typst}
+#set figure(placement: none)
+```
 
 ## Experiment Pictures
 
