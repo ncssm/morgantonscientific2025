@@ -4,6 +4,7 @@ extends:
 project:
   doi: 10.62329/gnmf4674
   id: morganton-2025-sarkar
+  thumbnail: thumbnail.jpg
   title: Evaluating the Effect of an Externally Applied Electric Field on Fluorescing Alpha-Synuclein Aggregates in NL5901 Parkinson's Disease Model of Caenorhabditis elegans
   short_title: Electric Field Effects on Alpha-Synuclein Aggregates
   description: This study investigates the effects of electric field exposure on alpha-synuclein aggregation and motor function in C. elegans models of Parkinson's disease. Using fluorescence imaging and motion tracking, the research quantifies protein degradation and locomotion improvements, revealing a significant reduction in alpha-synuclein aggregates and an increase in worm mobility post-treatment. These findings suggest that electric fields could be a promising non-invasive approach for mitigating neurodegenerative disease symptoms.

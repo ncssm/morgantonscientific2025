@@ -1,6 +1,5 @@
 version: 1
 project:
-  thumbnail: thumbnail.png
   banner: ../../templates/ncssm-preface/banner.jpg
   github: https://github.com/ncssm/morgantonscientific2025
   open_access: true

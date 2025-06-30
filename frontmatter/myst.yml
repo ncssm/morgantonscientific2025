@@ -3,6 +3,7 @@ project:
   id: morganton-2025-vol-2
   title: Morganton Scientific - Volume 2
   banner: ../templates/ncssm-preface/banner.jpg
+  thumbnail: ../templates/ncssm-preface/logo.png
   description: |
     The Morganton Scientific showcases some of the most
     interesting and complex math- and science-centered

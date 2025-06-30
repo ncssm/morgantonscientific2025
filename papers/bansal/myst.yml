@@ -4,6 +4,7 @@ extends:
 project:
   doi: 10.62329/xknn7875
   id: morganton-2025-bansal
+  thumbnail: ../../templates/ncssm-preface/logo.png
   title: The Psychological Profile of a Future Abuser
   description: This research paper explores factors contributing to the psychology that makes up an abuser by analyzing two comprehensive studies.
   keywords:

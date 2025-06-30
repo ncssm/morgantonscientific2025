@@ -4,6 +4,7 @@ extends:
 project:
   doi: 10.62329/ywtf3283
   id: morganton-2025-urmanova
+  thumbnail: thumbnail.jpg
   title: Exploring The Gut-Brain Axis in C. elegans— Probiotics as a Therapeutic Approach to Alpha-Synuclein Aggregation in Parkinson's Disease
   short_title: Probiotics and Alpha-Synuclein Aggregation in Parkinson's
   description: Though Parkinson's Disease has been thought to originate from the brain, recent studies suggest that the disorder may have also stemmed from the gut microbiome. The author discusses an experiment involving Caenorhabditis elegans models to determine if probiotics reduce alpha-synuclein aggregation, improve motor symptoms, and extend lifespan in C. elegans models of Parkinson's disease.

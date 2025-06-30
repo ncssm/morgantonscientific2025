@@ -4,6 +4,7 @@ extends:
 project:
   doi: 10.62329/vwrx3559
   id: morganton-2025-gencel
+  thumbnail: thumbnail.png
   title: In Silico Exploration of L-Valine Ester Prodrug Designs for Enhanced Pharmacokinetics in BCS Class IV Nucleoside Antivirals.
   short_title: L-Valine Ester Prodrug Designs for Antivirals
   description: This study utilized software such as Gaussian 16 to conduct molecular orbital, natural bond orbital, and bond order calculations to predict qualities of prodrugs. Additionally, this study utilized the StarDrop software to predict effectiveness when binding to important target proteins.

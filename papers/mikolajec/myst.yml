@@ -4,6 +4,7 @@ extends:
 project:
   doi: 10.62329/cvjn4247
   id: morganton-2025-mikolajec
+  thumbnail: thumbnail.jpg
   title: Green synthesis of decomposing rubber; comparing processing using carboxymethyl cellulose and Ipomoea pes-caprae
   short_title: Green Synthesis of Decomposable Rubber
   description: In recent years effort has been made to innovate alternative sustainable options to classic materials. Rubber is one of those materials that poses a major problem worldwide as it fills landfills, infiltrates ecosystems, and poses a threat to wildlife. The author aims to develop a method of green synthesis of a latex natural rubber (LNR) material specific to the purpose of rubber band production with increased decomposability and a decreased negative impact on the ecosystem as well as minimized cost.
