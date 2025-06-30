@@ -2,6 +2,7 @@ version: 1
 extends:
   - ../../morganton2025.yml
 project:
+  doi: 10.62329/vjpx9968
   id: morganton-2025-cummings
   title: An Interview with Mrs. Erika Cummings (PA) from the Duke Neurology Department on Clinical Neuroscience
   description: On March 25th, Mrs. Erika Cummings from the Duke Neurology Department visited the NCSSM Morganton Campus. During her visit, she spoke with authors of the Morganton Scientific who asked their questions regarding neuroscience in clinical practice.

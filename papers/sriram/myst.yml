@@ -2,6 +2,7 @@ version: 1
 extends:
   - ../../morganton2025.yml
 project:
+  doi: 10.62329/vxkm5783
   title: Harvesting Energy with Affordable Piezoelectric Sensors for Low-Power Biosensors
   id: morganton-2025-sriram
   description: This study focuses on the feasibility of using affordable piezoelectric sensors to power low-power biosensors, aiming to reduce reliance on conventional batteries.

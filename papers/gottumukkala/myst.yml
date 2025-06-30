@@ -2,6 +2,7 @@ version: 1
 extends:
   - ../../morganton2025.yml
 project:
+  doi: 10.62329/acjn2734
   id: morganton-2025-gottumukkala
   title: Evaluating the Effects of Lactic Acid Fermented Foods on Type 2 Diabetes Mellitus using 𝘉𝘰𝘮𝘣𝘺𝘹 𝘮𝘰𝘳𝘪 Silkworms
   short_title: Lactic Acid Fermented Foods and Type 2 Diabetes

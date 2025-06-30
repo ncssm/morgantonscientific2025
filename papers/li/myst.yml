@@ -2,6 +2,7 @@ version: 1
 extends:
   - ../../morganton2025.yml
 project:
+  doi: 10.62329/khkv4846
   id: morganton-2025-li
   title: Binding Affinity and Selectivity of Peptide Ligands for G-Protein-Coupled Receptors
   description: Chemokine receptors like CXCR4 play critical roles in cellular signaling, influencing processes such as cancer metastasis and immune regulation. Understanding CXCR4’s interaction with its natural ligand, CXCL12, is key for targeted drug design. In this study, we used SwissDock to probe the binding interactions of CXCL12 with CXCR4, comparing them to CXCR3 to evaluate specificity.

@@ -2,6 +2,7 @@ version: 1
 extends:
   - ../../morganton2025.yml
 project:
+  doi: 10.62329/gnmf4674
   id: morganton-2025-sarkar
   title: Evaluating the Effect of an Externally Applied Electric Field on Fluorescing Alpha-Synuclein Aggregates in NL5901 Parkinson's Disease Model of Caenorhabditis elegans
   short_title: Electric Field Effects on Alpha-Synuclein Aggregates

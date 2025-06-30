@@ -2,6 +2,7 @@ version: 1
 extends:
   - ../../morganton2025.yml
 project:
+  doi: 10.62329/rujg3592
   id: morganton-2025-chintapalli
   title: Risk Factors of Frequent Poor Mental Health Days Among Adults in the United States
   short_title: Risk Factors of Frequent Poor Mental Health Days in US Adults

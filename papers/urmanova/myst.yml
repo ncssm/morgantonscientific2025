@@ -2,6 +2,7 @@ version: 1
 extends:
   - ../../morganton2025.yml
 project:
+  doi: 10.62329/ywtf3283
   id: morganton-2025-urmanova
   title: Exploring The Gut-Brain Axis in C. elegans— Probiotics as a Therapeutic Approach to Alpha-Synuclein Aggregation in Parkinson's Disease
   short_title: Probiotics and Alpha-Synuclein Aggregation in Parkinson's

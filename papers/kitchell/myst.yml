@@ -2,7 +2,7 @@ version: 1
 extends:
   - ../../morganton2025.yml
 project:
-  doi:
+  doi: 10.62329/upur9568
   id: morganton-2025-kitchell
   title: Utilizing Alkaline Hydrolysis to Recover Terephthalic Acid Monomer From PET-Based Textile Waste
   short_title: Alkaline Hydrolysis for PET Textile Recycling
