@@ -208,7 +208,7 @@ Percent Change = $\frac{New - Original}{Original}*100$%
 |             | Magnifying Glass | Trial 1      | 1.841                      | 1.824            | 5.579                       | 5.527             | 0.01027                    | 0.01008          | 4.828                              | 9.589                      |
 ```
 
-```{figure} images\Voltage vs. Sunlight Condition and Optical Device.svg
+```{figure} images/Voltage vs. Sunlight Condition and Optical Device.svg
 :name: Figure_4
 :align: center
 

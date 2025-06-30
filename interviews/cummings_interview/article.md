@@ -2,18 +2,18 @@
 title: An Interview with Mrs. Erika Cummings (PA) from the Duke Neurology Department on Clinical Neuroscience
 ---
 
-```{figure} images/Picture_with_cummings.png
+## Introduction
+
+On Tuesday, March 25th, Mrs. Erika Cummings from the Duke Neurology Department visited the NCSSM Morganton Campus. During her visit, she spoke with authors of the Morganton Scientific. Both Adrija Sarkar and Leyla Urmanova conducted original research to better understand therapies for Parkinson’s Disease; their articles are included in the 2nd Edition of the Morganton Scientific. Additionally, Leyla Urmanova and Navya Bansal wrote literature reviews evaluating topics important to clinical psychology and neuroscience. Laira Lee, one of the chief editors of the Morganton Scientific, and Mr. Christopher Collins, a member of the science faculty at NCSSM Morganton, assisted during the interview. A great thanks goes to Mr. Collins for helping set up the interview and reaching out to Mrs. Cummings. 
+
+Mrs. Erika Cummings is a Physicians Associate (PA) practicing on the inpatient General Neurology team. She is also involved in PA training. She graduated with a Master of Medical Science degree from Wake Forest University and graduated from Duke’s APP residency program.
+
+```{figure} images/Picture_with_cummings.jpg
 :label: group_pic
 :align: center
 
 Adrija Sarkar, Navya Bansal, Mrs. Erika Cummings, Leyla Urmanova, and Laira Lee (from left to right) on March 25th. 
 ```
-
-## Introduction
-
-On Tuesday, March 25th, Mrs. Erika Cummings from the Duke Neurology Department visited the NCSSM Morganton Campus. During her visit, she spoke with authors of the Morganton Scientific. Both Adrija Sarkar and Leyla Urmanova conducted original research to better understand therapies for Parkinson’s Disease; their articles are included in the 2nd Edition of the Morganton Scientific. Additionally, Leyla Urmanova and Navya Bansal wrote literature reviews evaluating topics important to clinical psychology and neuroscience. Laira Lee, one of the chief editors of the Morganton Scientific, and Mr. Christopher Collins, a member of the science faculty at NCSSM Morganton, assisted during the interview. A great thanks goes to Mr. Collins for helping set up the interview and reaching out to Mrs. Cummings. 
-
-Mrs. Erika Cummings is a Physicians Associate (PA) practicing on the inpatient General Neurology team. She is also involved in PA training. She graduated with a Master of Medical Science degree from Wake Forest University and graduated from Duke’s APP residency program. 
 
 ## Interview
 
