@@ -3,6 +3,7 @@ extends:
   - ../../morganton2025.yml
 project:
   title: Optimizing Photovoltaic Output Through the Integration of Passive Optical Tools for Enhanced Photon Capture in Solar Cells
+  short_title: Optimizing Solar Cell Output with Optical Tools
   id: morganton-2025-ramidi
   description: This project focused on increasing the efficiency of solar panels through focusing and reflective materials and comparing the results over different weather conditions.
   keywords:

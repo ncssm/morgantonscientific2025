@@ -3,6 +3,7 @@ extends:
   - ../../morganton2025.yml
 project:
   title: An Examination of the Enzymatic Degradation of PET Plastic via PETase and MHETase
+  short_title: Enzymatic Degradation of PET Plastic via PETase and MHETase
   id: morganton-2025-allred
   description: This project focuses on the enzymatic degradation of the most common packaging plastic by an enzyme system naturally developed by a Japanese bacterium found in 2016. There was no sign of substantial degradation of the post-consumer plastic in the experiment, however it seems likely that pre-treating methods could allow for stronger levels of degradation and thus more effective recycling.
   keywords:

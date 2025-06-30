@@ -4,6 +4,7 @@ extends:
 project:
   id: morganton-2025-kulla
   title: Utilizing Enzymatic and Chemical Delignification Methods on Fibrous Plants for Decentralized Production of Absorbent Materials for Menstrual Pads in Semi-Arid Regions
+  short_title: Delignification Methods for Sustainable Menstrual Pads
   description: In the interest of finding more sustainable and accessible materials to replace cotton pads for the multitude of women unable to access safe menstrual products, the author conducts experiments involving the absorption of pineapple and sisal fibers to produce biodegradable options.
   keywords:
     - Enzymatic
