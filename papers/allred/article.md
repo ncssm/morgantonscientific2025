@@ -1,5 +1,6 @@
 ---
 title: An Examination of the Enzymatic Degradation of PET Plastic via PETase and MHETase
+short_title: Enzymatic Degradation of PET Plastic via PETase and MHETase
 abstract: |
   Post-consumer plastic waste is a concerning issue in the world at large, and polyethylene terephthalate (PET) plastic is a key contributor of that waste. In 2016, Yoshida et al. discovered a system of enzymes, PETase and MHETase, in the bacteria *Ideonella* *sakaiensis*, which they claimed could degrade PET plastic. While true, this degradation only truly affects lower crystallinity PET (in the range of 2-3%), which is well below the crystallinity in which most PET plastic that is sold (a typical PET water bottle may be 31%). As such, while the surface of the plastic waste may be degraded, the core of the plastic tends to hold strong unless it is first melted into lower crystalline plastic. This study used a chimera of the two enzymes, developed by Knott et al., with the initial goal of testing various conditions for degradation. This work finds that these enzymes have a limited effect on the degradation of un-modified post-consumer PET plastic. While a minor increase in efficiency can be found in a solution which contains ethylene glycol, the rate of degradation is miniscule regardless.
 ---

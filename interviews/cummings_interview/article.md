@@ -1,5 +1,6 @@
 ---
 title: An Interview with Mrs. Erika Cummings (PA) from the Duke Neurology Department on Clinical Neuroscience
+short_title: An Interview with Mrs. Erika Cummings
 ---
 
 ## Introduction

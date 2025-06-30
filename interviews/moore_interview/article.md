@@ -1,5 +1,6 @@
 ---
 title: An Interview with Dr. Kathryn Moore (MD) from the Duke Neurology Department on Clinical Neuroscience and Research
+short_title: An Interview with Dr. Kathryn Moore
 ---
 
 

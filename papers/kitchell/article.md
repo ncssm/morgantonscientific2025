@@ -1,5 +1,6 @@
 ---
 title: Utilizing Alkaline Hydrolysis to Recover Terephthalic Acid Monomer From PET-Based Textile Waste
+short_title: Alkaline Hydrolysis for PET Textile Recycling
 abstract: |
   Over 85% of textile waste in the U.S. ends up in landfills, primarily because most textiles are difficult to recycle in an economically feasible manner if they consist of a blend of natural and synthetic fibers (United States Environmental Protection Agency, 2018). Mechanically separating natural and synthetic fibers is a labor-intensive and inefficient process. However, alkaline hydrolysis is a prospective method to chemically recycle blended textiles by recovering the monomer terephthalic acid (TPA) from fibers of its polymer, polyethylene terephthalate (PET). Applied industrially, this process could contribute to a circular economy by recycling textile waste into virgin-quality PET. 
   

@@ -1,5 +1,6 @@
 ---
 title: Evaluating the Effects of Lactic Acid Fermented Foods on Type 2 Diabetes Mellitus using 𝘉𝘰𝘮𝘣𝘺𝘹 𝘮𝘰𝘳𝘪 Silkworms
+short_title: Lactic Acid Fermented Foods and Type 2 Diabetes
 abstract: |
  Type 2 diabetes mellitus (T2D) continues to rise globally, highlighting an urgent need for effective and accessible interventions. In this study, _Bombyx mori_ silkworms were employed as a novel, cost-effective model to evaluate the impact of lactic acid fermented foods on hyperglycemia. Thirty silkworms were randomly divided into three groups: Group 1 (control diet), Group 2 (10% glucose diet), and Group 3 (10% glucose diet plus probiotic supplementation). Following a period of induced hyperglycemia in Groups 2 and 3, hemolymph samples were collected and assessed for relative glucose levels using a colorimetric quantitation assay.
  
