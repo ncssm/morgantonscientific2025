@@ -70,24 +70,39 @@
 #v(1em)
 #{
   for paper in papers {
-      table(
-        columns: (35pt, auto),
-        inset: 0em,
-        stroke: none,
-        gutter: 0em,
-        [ #emph(str(paper.at("page")))], [ #text(size: 12pt, style: "italic", paper.at("title"))],
-      )
-      if ("author" in paper) {
-        table(
-          columns: (35pt, auto),
-          inset: 0em,
-          stroke: none,
-          gutter: 0em,
-          [], [ #text(size: 10pt, fill: black.lighten(20%), upper(paper.at("author")))]
-        )
-      }
-      v(3pt)
-    }
+    block(
+      breakable: false,
+      [
+        #if (paper.title.contains(regex(" "))) {
+          table(
+            columns: (35pt, auto),
+            inset: 0em,
+            stroke: none,
+            gutter: 0em,
+            [ #emph(str(paper.at("page")))], [ #text(size: 12pt, style: "italic", paper.at("title"))],
+          )
+          if ("author" in paper) {
+            table(
+              columns: (35pt, auto),
+              inset: 0em,
+              stroke: none,
+              gutter: 0em,
+              [], [ #text(size: 10pt, fill: black.lighten(20%), upper(paper.at("author")))]
+            )
+          }
+        } else {
+          table(
+            columns: (35pt, auto),
+            inset: 0em,
+            stroke: none,
+            gutter: 0em,
+            [], [ #strong(text(size: 12pt, style: "normal", paper.at("title")))],
+          )
+        }
+        #v(3pt)
+      ]
+    )
+  }
 }
 
 #pagebreak()
