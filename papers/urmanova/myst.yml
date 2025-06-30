@@ -24,8 +24,8 @@ project:
         - Investigation
         - Data curation
         - Visualization
-  first_page: 0
-  last_page: 0
+  first_page: 180
+  last_page: 188
   abbreviations:
     PD: Parkinson's Disease
     C. elegans: Caenorhabditis elegans

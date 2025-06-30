@@ -28,8 +28,8 @@ project:
         - Visualization
         - Writing - Original Draft
         - Writing - Review & Editing
-  first_page: 0
-  last_page: 0
+  first_page: 120
+  last_page: 129
   abbreviations:
     NCSSM: North Carolina School of Science and Mathematics
     GPCR: G-Protein-Coupled Receptor

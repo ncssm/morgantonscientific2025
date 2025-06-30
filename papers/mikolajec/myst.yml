@@ -27,8 +27,8 @@ project:
         - Validation
         - Visualization
         - Writing-original draft
-  first_page: 0
-  last_page: 0
+  first_page: 130
+  last_page: 141
   abbreviations:
     LNR: Latex natural rubber
     CSG: Corn starch and glycerol

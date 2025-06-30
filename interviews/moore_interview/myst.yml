@@ -17,8 +17,8 @@ project:
     - Neurologist
     - Motor Disorders
   subject: Interview
-  first_page: 5
-  last_page: 18
+  first_page: 12
+  last_page: 25
   abbreviations:
     DBS: Deep brain stimulation
     EEG: Electroencephalogram

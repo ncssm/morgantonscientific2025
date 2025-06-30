@@ -3,6 +3,7 @@ _build
 *.bak
 .DS_Store
 template.pdf
+divider.pdf
 
 article.pdf
 morganton2025.pdf

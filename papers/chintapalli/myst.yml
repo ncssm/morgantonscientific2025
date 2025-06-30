@@ -27,8 +27,8 @@ project:
         - Visualization
         - writing
         - editing
-  first_page: 40
-  last_page: 52
+  first_page: 49
+  last_page: 60
   abbreviations:
     BRFSS: Behavioral Risk Factor Surveillance System
     FPMH: Frequent Poor Mental Health
