@@ -9,6 +9,13 @@ project:
     research projects explored by students at NCSSM.
     We are a public high school where talented students
     realize their potential and find their niche.
+  authors:
+    - name: Armaan Gera
+      affiliation: ncssm
+    - name: Laira Lee
+      affiliation: ncssm
+    - name: Mickayla Belus
+      affiliation: ncssm
   doi: 10.62329/dwgm3685
   downloads:
     - title: Download Full PDF
