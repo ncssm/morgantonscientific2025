@@ -26,5 +26,7 @@ tags:
 thumbnail: ./thumbnail.png
 github: https://github.com/curvenote-templates/ncssm
 doc:
-  - id: volume
+  - id: volume # Includes volume.number
+    required: true
+  - id: issue # Includes issue.doi
     required: true

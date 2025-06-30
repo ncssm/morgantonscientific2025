@@ -57,7 +57,7 @@
   #v(0.3em)
   #text(size:10pt)[Journal of Student STEM Research]
   #v(0.5em)
-  #text(size:10pt, fill: black.lighten(40%), link("https://doi.org/[-doc.volume.doi-]")[https://doi.org/[-doc.volume.doi-]])
+  #text(size:10pt, fill: black.lighten(40%), link("https://doi.org/[-doc.issue.doi-]")[https://doi.org/[-doc.issue.doi-]])
   #v(5em)
   #text(size:8pt, fill: black.lighten(40%), [Cover image by Arjun Rao])
 ]

@@ -25,7 +25,8 @@ project:
       phone: 828-347-9100
       ror: https://ror.org/03zbydc22
   volume:
-    number: 1
-    doi: ...
+    number: 2
+  issue:
+    doi: 10.62329/dwgm3685
 site:
   template: https://github.com/myst-templates/article-theme.git
