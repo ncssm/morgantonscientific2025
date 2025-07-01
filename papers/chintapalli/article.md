@@ -94,13 +94,13 @@ The following were used as predictor (independent) variables for this analysis. 
   - Multiracial, non-Hispanic = 6
   - Hispanic = 7
 
-\_**EDUCAG** → \_**educag**\_
+\_**EDUCAG** {math}`\rightarrow` \_**educag**\_
   - Did not graduate High School = 1
   - Graduated High School = 2
   - Attended College or Technical School = 3
   - Graduated from College or Technical School = 4
 
-**MARITAL** → \_**marital**\_
+**MARITAL** {math}`\rightarrow` \_**marital**\_
   - Married = 1
   - Divorced = 2
   - Widowed = 3
@@ -108,7 +108,7 @@ The following were used as predictor (independent) variables for this analysis. 
   - Never married = 5
   - A member of an unmarried couple = 6
   
-**EMPLOY1** → \_**employ1**\_
+**EMPLOY1** {math}`\rightarrow` \_**employ1**\_
   - Employed for wages = 1
   - Self-employed = 2
   - Out of work for 1 year or more = 3
@@ -118,7 +118,7 @@ The following were used as predictor (independent) variables for this analysis. 
   - Retired = 7
   - Unable to work = 8
 
-_**INCOMG1** → \_**income3**\_
+_**INCOMG1** {math}`\rightarrow` \_**income3**\_
   - Less than $15,000 = 1
   - $15,000 to < $25,000 = 2
   - $25,000 to < $35,000 = 3
@@ -127,11 +127,11 @@ _**INCOMG1** → \_**income3**\_
   - $100,000 to < $200,000 = 6
   - $200,000 or more = 7
 
-**VETERAN3** → \_**veteran3**\_
+**VETERAN3** {math}`\rightarrow` \_**veteran3**\_
   - Yes = 1
   - No = 2
 
-\_**CHLDCNT** → \_**CHLDCNT**\_
+\_**CHLDCNT** {math}`\rightarrow` \_**CHLDCNT**\_
   - No children in household = 1
   - One child in household = 2
   - Two children in household = 3
@@ -139,19 +139,19 @@ _**INCOMG1** → \_**income3**\_
   - Four children in household = 5
   - Five or more children in household = 6
 
-\_**TOTINDA** → \_**TOTINDA**\_
+\_**TOTINDA** {math}`\rightarrow` \_**TOTINDA**\_
   - Had physical activity or exercise = 1
   - No physical activity or exercise in the last 30 days = 2
 
-\_**RFSMOK3** → \_**RFSMOK3**\_
+\_**RFSMOK3** {math}`\rightarrow` \_**RFSMOK3**\_
   - No = 1
   - Yes = 2
 
-\_**RFBING6** → \_**RFBING6**\_
+\_**RFBING6** {math}`\rightarrow` \_**RFBING6**\_
   - No = 1
   - Yes = 2
 
-**DIABETES4, \_MICHD, CVDSTRK3, \_LTASTH1, \_DRDXAR2, CHCSCNC1, CHCOCNC1, CHCCOPD3, CHCKDNY2** → **chronic\_disease**
+**DIABETES4, \_MICHD, CVDSTRK3, \_LTASTH1, \_DRDXAR2, CHCSCNC1, CHCOCNC1, CHCCOPD3, CHCKDNY2** {math}`\rightarrow` **chronic\_disease**
   - Manages no chronic conditions = 1
   - Manages 1-2 chronic conditions = 2
   - Manages 3-5 chronic conditions = 3
@@ -164,7 +164,7 @@ _**INCOMG1** → \_**income3**\_
 
 The following was used as the outcome (dependent) variable. The 14-day cutoff is based on the CDC’s recommendation for classifying a respondent’s mental health as frequently poor [@cdc_codebook_2023]. 
 
-**\_MENT14D** → \_**ment14**\_
+**\_MENT14D** {math}`\rightarrow` \_**ment14**\_
   - Less than 14 days of poor mental health in the last 30 days (“satisfactory”) = 0
   - 14 or more poor mental health days in the last 30 days (“frequent, poor”) = 1
 
